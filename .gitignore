@@ -1,0 +1,9 @@
+*.aux
+*.log
+*.gz
+*.synctex
+*.synctex(busy)
+*.log
+*.out
+/refTemplate
+.vscode/

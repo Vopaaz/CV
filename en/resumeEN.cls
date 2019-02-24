@@ -7,8 +7,6 @@
 \RequirePackage{hyperref}
 \hypersetup{colorlinks,allcolors=black}
 
-\RequirePackage{titlesec}
-
 \pagestyle{empty}
 
 \RequirePackage{enumerate}
@@ -16,7 +14,13 @@
 \setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
 \setitemize[2]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
 
+\RequirePackage{fontspec}
+
+\setmainfont{Times New Roman}
+
 \setlength{\parindent}{0pt}
+
+\RequirePackage{titlesec}
 
 \titlespacing{\section}{0pt}{*0.5}{*0.9}
 

@@ -9,8 +9,8 @@
 
 \pagestyle{empty}
 
-\RequirePackage{enumerate}
 \RequirePackage{enumitem}
+
 \setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
 \setitemize[2]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
 
@@ -37,9 +37,21 @@
     \end{center}
 }
 
-\newcommand{\Experience}[4]{
+\DeclareDocumentCommand{\Experience}{ m m m o m m }{%
     \vspace{0.618ex}
+
     \textbf{#1} \hfill #2 \\
-    #3 \hfill #4
+    \IfNoValueTF{#4}{
+        #3 \hfill #5
+        \begin{itemize}
+            #6
+        \end{itemize}
+    }{
+        #3 \hfill #5\\
+        #4
+        \begin{itemize}
+            #6
+        \end{itemize}
+    }
 }
 

@@ -36,20 +36,17 @@
     \end{center}
 }
 
-\DeclareDocumentCommand{\Experience}{ m m m o m m }{%
+\DeclareDocumentCommand{\Experience}{ m m o m m m }{%
     \vspace{0.618ex}
 
-    \textbf{#1} \hfill #2 \\
-    \IfNoValueTF{#4}{
-        #3 \hfill #5
-        \begin{itemize}
-            #6
-        \end{itemize}
+    \textbf{#1} \hfill #4 \\
+    \IfNoValueTF{#3}{
+        #2 \hfill #5
     }{
-        #3 \hfill #5\\
-        #4
-        \begin{itemize}
-            #6
-        \end{itemize}
+        #2 \hfill #5\\
+        #3
     }
+    \begin{itemize}
+        #6
+    \end{itemize}
 }

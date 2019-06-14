@@ -38,6 +38,7 @@
 }
 
 \DeclareDocumentCommand{\Experience}{ m m o m m m }{%
+
     \vspace{0.618ex}
 
     \textbf{#1} \hfill #4 \\
@@ -50,5 +51,6 @@
     \begin{itemize}
         #6
     \end{itemize}
+
 }
 

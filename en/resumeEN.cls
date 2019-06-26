@@ -1,7 +1,7 @@
 \LoadClass{article}
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resumeZH}[2019/2/24 Resume Class by Vopaaz]
+\ProvidesClass{resumeEN}[2019/2/24 Resume Class by Vopaaz]
 
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}

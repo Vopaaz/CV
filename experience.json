@@ -5,7 +5,7 @@
     "experiences": [
       {
         "command": "thuundergrad",
-        "time": "2017/9 - 2021/6",
+        "time": "2017/09 - 2021/06",
         "en": {
           "title": "Tsinghua University",
           "position": "Bachelor of Management, Major in Information Management and Information System",
@@ -33,7 +33,7 @@
       },
       {
         "command": "umnexchange",
-        "time": "2019/8 - 2019/12",
+        "time": "2019/08 - 2019/12",
         "en": {
           "title": "University of Minnesota",
           "position": "Exchange Student, Carlson School of Management",
@@ -61,7 +61,7 @@
     "experiences": [
       {
         "command": "summitview",
-        "time": "2018/7 - 2018/8",
+        "time": "2018/07 - 2018/08",
         "en": {
           "title": "Summitview Capital Co., Ltd.",
           "location": "Shanghai, China",
@@ -87,7 +87,7 @@
       },
       {
         "command": "continental",
-        "time": "2019/7 - 2019/8",
+        "time": "2019/07 - 2019/08",
         "en": {
           "title": "Continental Automotive Systems (Shanghai) Co., Ltd.",
           "location": "Shanghai, China",
@@ -147,7 +147,7 @@
     "experiences": [
       {
         "command": "cydp",
-        "time": "2019/1 - 2019/2",
+        "time": "2019/01 - 2019/02",
         "en": {
           "title": "Chinese Young Development Program",
           "location": "New York, U.S.A",
@@ -173,7 +173,7 @@
       },
       {
         "command": "tkd",
-        "time": "2018/5 - 2019/6",
+        "time": "2018/05 - 2019/06",
         "en": {
           "title": "Taekwondo Delegation of Tsinghua University",
           "location": "Beijing, China",
@@ -199,7 +199,7 @@
       },
       {
         "command": "semtech",
-        "time": "2018/5 - 2019/6",
+        "time": "2018/05 - 2019/06",
         "en": {
           "title": "Academic Development and Scientific Innovation Association",
           "position": "Principal of Match Department, Tsinghua University School of Economics and Management",
@@ -223,7 +223,7 @@
       },
       {
         "command": "eydatascience",
-        "time": "2019/4 - 2019/5",
+        "time": "2019/04 - 2019/05",
         "en": {
           "title": "Ernst & Young NextWave Data Science Challenge",
           "location": "Shanghai, China",
@@ -246,5 +246,19 @@
         "zh-on": "true"
       }
     ]
+  },
+  "skills": {
+    "en": "Additional Information",
+    "zh": "其他信息",
+    "details": {
+      "en": [
+        "Skills: C, Python, Java, LaTeX, Microsoft Office Word, Excel, PowerPoint",
+        "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112)"
+      ],
+      "zh": [
+        "技能：C, Python, Java, LaTeX, Microsoft Office Word, Excel, PowerPoint",
+        "语言：普通话（母语），英语（流利，托福112分）"
+      ]
+    }
   }
 }

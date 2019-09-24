@@ -5,5 +5,4 @@
 *.synctex(busy)
 *.log
 *.out
-/refTemplate
 .vscode/

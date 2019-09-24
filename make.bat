@@ -1,5 +1,8 @@
 @echo off
 
+python render-experiences.py
+python render-mains.py
+
 set root=%cd%
 set silentfile=silent.aux
 

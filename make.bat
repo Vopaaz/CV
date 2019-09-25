@@ -6,8 +6,11 @@ call python render-mains.py
 copy experience.json site/src/assets/experience.json
 
 set root=%cd%
-set silentfile=silent.aux
 
+cd %root%/site
+call deploy.bat
+
+set silentfile=silent.aux
 cd %root%/en
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-EN-verbose.tex" > %silentfile%
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-EN-verbose.tex" > %silentfile%

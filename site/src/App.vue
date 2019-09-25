@@ -1,24 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <general-section sec="education" :state="state" />
+    <general-section sec="internship" :state="state" />
+    <general-section sec="research" :state="state" />
+    <general-section sec="others" :state="state" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GeneralSection from "./components/GeneralSection.vue";
+import state from "./assets/Global.js";
 
 export default {
-  name: 'app',
+  name: "app",
+  data: function() {
+    return {
+      state: state
+    };
+  },
   components: {
-    HelloWorld
+    GeneralSection
   }
-}
+};
 </script>
 
-<style>
+<style scoped>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

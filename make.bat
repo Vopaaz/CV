@@ -1,7 +1,9 @@
 @echo off
 
-python render-experiences.py
-python render-mains.py
+call python render-experiences.py
+call python render-mains.py
+
+copy experience.json site/src/assets/experience.json
 
 set root=%cd%
 set silentfile=silent.aux

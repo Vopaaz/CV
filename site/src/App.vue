@@ -1,8 +1,9 @@
 <template>
-  <a-layout>
-    <page-header :state="state" />
-    <div id="app">
+  <div id="app">
+    <a-layout>
+      <page-header :state="state" />
       <a-layout-content>
+        <contact-info :state="state" />
         <general-section sec="education" :state="state" />
         <general-section sec="internship" :state="state" />
         <general-section sec="research" :state="state" />
@@ -13,8 +14,8 @@
       <div>
         <a-back-top />
       </div>
-    </div>
-  </a-layout>
+    </a-layout>
+  </div>
 </template>
 
 <script>
@@ -22,6 +23,7 @@ import GeneralSection from "./components/GeneralSection.vue";
 import SkillSection from "./components/SkillSection.vue";
 import PageFooter from "./components/PageFooter.vue";
 import PageHeader from "./components/PageHeader.vue";
+import ContactInfo from "./components/ContactInfo.vue";
 import state from "./assets/Global.js";
 
 export default {
@@ -35,7 +37,8 @@ export default {
     GeneralSection,
     SkillSection,
     PageFooter,
-    PageHeader
+    PageHeader,
+    ContactInfo
   }
 };
 </script>
@@ -47,6 +50,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

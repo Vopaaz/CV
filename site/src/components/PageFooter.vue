@@ -1,7 +1,7 @@
 <template>
   <a-layout-footer class="page-footer">
     <a-row>
-      <external-link :offset="6" href="../pdf/CV-ZH.pdf" icon="file-pdf" text="PDF" />
+      <external-link :offset="6" :href="pdf_path" icon="file-pdf" text="PDF" />
       <external-link :offset="0" href="https://github.com/Vopaaz" icon="github" text="Github" />
       <external-link
         :offset="0"
@@ -32,6 +32,24 @@ export default {
   },
   components: {
     ExternalLink
+  },
+  computed: {
+    pdf_path: function() {
+      if (this.state["lang"] == "zh") {
+        if (this.state["verbose"] == "false") {
+          return "../pdf/CV-ZH.pdf";
+        } else {
+          return "../pdf/CV-ZH-verbose.pdf";
+        }
+      } else {
+        if (this.state["verbose"] == "false") {
+          return "../pdf/CV-EN.pdf";
+        } else {
+          return "../pdf/CV-EN-verbose.pdf";
+        }
+      }
+      return;
+    }
   }
 };
 </script>
@@ -46,7 +64,7 @@ export default {
 
 .copyright-info {
   margin-top: 1cm;
-  color:whitesmoke;
+  color: whitesmoke;
   font-family: "Times New Roman";
 }
 </style>

@@ -1,15 +1,13 @@
 @echo off
 
+echo Rendering .tex files
 call python render-experiences.py
 call python render-mains.py
+echo Rendering .tex files rendered
 
-copy experience.json site/src/assets/experience.json
+echo Start compiling LaTeX for PDF
 
 set root=%cd%
-
-cd %root%/site
-call deploy.bat
-
 set silentfile=silent.aux
 cd %root%/en
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-EN-verbose.tex" > %silentfile%
@@ -31,3 +29,17 @@ lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-ZH.tex" > %sil
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-ZH.tex" > %silentfile%
 if errorlevel 1 ( echo [ATTENTION] ZH: FAILED [ATTENTION] ) else ( echo ZH: finished )
 
+echo PDF making succeed
+
+echo Copying PDF file to site directory
+
+copy en/CV-EN-verbose.pdf site/src/public/pdf/CV-EN-verbose.pdf
+copy en/CV-EN.pdf site/src/public/pdf/CV-EN.pdf
+copy zh/CV-ZH-verbose.pdf site/src/public/pdf/CV-ZH-verbose.pdf
+copy zh/CV-ZH.pdf site/src/public/pdf/CV-ZH.pdf
+
+echo PDF file copied to site directory
+
+echo Deploy the website
+cd %root%/site
+call deploy.bat

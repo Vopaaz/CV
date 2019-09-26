@@ -4,11 +4,18 @@
     <general-section sec="internship" :state="state" />
     <general-section sec="research" :state="state" />
     <general-section sec="others" :state="state" />
+    <skill-section :state="state" />
+    <page-footer :state="state" />
+    <div>
+      <a-back-top />
+    </div>
   </div>
 </template>
 
 <script>
 import GeneralSection from "./components/GeneralSection.vue";
+import SkillSection from "./components/SkillSection.vue";
+import PageFooter from "./components/PageFooter.vue"
 import state from "./assets/Global.js";
 
 export default {
@@ -19,7 +26,9 @@ export default {
     };
   },
   components: {
-    GeneralSection
+    GeneralSection,
+    SkillSection,
+    PageFooter
   }
 };
 </script>

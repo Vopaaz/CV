@@ -1,3 +1,4 @@
+call npm run icons
 call npm run build
 
 cd dist

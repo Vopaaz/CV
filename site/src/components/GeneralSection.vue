@@ -7,8 +7,8 @@
         class="exp-card"
         v-for="exp in ordered_exps"
         :key="exp[lang]['title']"
-        headStyle="font-size:14pt;"
-        bodyStyle="font-size:12pt; font-family:Helvetica;"
+        headStyle="font-size:16pt; font-family:Calibri, Helvetica, Arial, sans-serif"
+        bodyStyle="font-size:14pt; font-family:Calibri, Helvetica, Arial, sans-serif"
       >
         <ul>
           <li v-for="detail in exp[lang]['details']" :key="detail">
@@ -32,7 +32,7 @@ export default {
     preprocess: function(str) {
       var re = /\$HREF\{(.*?)\}\{(.*?)\}/;
       return str.replace(re, x => {
-        return `<a href="${x.match(re)[2]}">${x.match(re)[1]}</a>`;
+        return `<a target="_blank" href="${x.match(re)[2]}">${x.match(re)[1]}</a>`;
       });
     }
   },
@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .exp-card {
   text-align: left;
   margin-bottom: 3pt;
@@ -64,9 +64,18 @@ export default {
 h2 {
   margin-top: 10pt;
   font-size: 24pt;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 li {
   margin-bottom: 3pt;
+}
+
+ul {
+  margin-bottom: 0pt;
+}
+
+a{
+  color: #3976C6;
 }
 </style>

@@ -2,7 +2,7 @@
   <a-affix :offsetTop="this.top">
     <a-layout-header class="page-header">
       <a-row>
-        <a-col :offset="15" :span="5">
+        <a-col :offset="15" :span="5" style="text-align:right;">
           <span v-if="state['lang']=='zh'" class="label">只显示最近的条目</span>
           <span v-else class="label">Show recent items only</span>
           <a-switch defaultChecked @change="switch_verbose" />

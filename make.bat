@@ -3,7 +3,7 @@
 echo Rendering .tex files
 call python render-experiences.py
 call python render-mains.py
-echo Rendering .tex files rendered
+echo .tex files rendered
 
 echo Start compiling LaTeX for PDF
 
@@ -31,14 +31,15 @@ if errorlevel 1 ( echo [ATTENTION] ZH: FAILED [ATTENTION] ) else ( echo ZH: fini
 
 echo PDF making succeed
 
-echo Copying PDF file to site directory
+echo Copying files to site directory
+cd %root%
+copy "experience.json" "site/src/assets/experience.json"
+copy "en\CV-EN-verbose.pdf" "site\public\pdf\CV-EN-verbose.pdf"
+copy "en\CV-EN.pdf" "site\public\pdf\CV-EN.pdf"
+copy "zh\CV-ZH-verbose.pdf" "site\public\pdf\CV-ZH-verbose.pdf"
+copy "zh\CV-ZH.pdf" "site\public\pdf\CV-ZH.pdf"
 
-copy en/CV-EN-verbose.pdf site/src/public/pdf/CV-EN-verbose.pdf
-copy en/CV-EN.pdf site/src/public/pdf/CV-EN.pdf
-copy zh/CV-ZH-verbose.pdf site/src/public/pdf/CV-ZH-verbose.pdf
-copy zh/CV-ZH.pdf site/src/public/pdf/CV-ZH.pdf
-
-echo PDF file copied to site directory
+echo files copied to site directory
 
 echo Deploy the website
 cd %root%/site

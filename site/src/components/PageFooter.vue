@@ -1,7 +1,7 @@
 <template>
-  <a-row>
-    <div class="page-footer">
-      <external-link :offset="8" href="../pdf/CV-ZH.pdf" icon="file-pdf" text="PDF" />
+  <a-layout-footer class="page-footer">
+    <a-row>
+      <external-link :offset="6" href="../pdf/CV-ZH.pdf" icon="file-pdf" text="PDF" />
       <external-link :offset="0" href="https://github.com/Vopaaz" icon="github" text="Github" />
       <external-link
         :offset="0"
@@ -9,14 +9,14 @@
         icon="linkedin"
         text="LinkedIn"
       />
-      <external-link
-        :offset="0"
-        href="mailto:liyifanv616@outlook.com"
-        icon="email"
-        text="E-mail"
-      />
-    </div>
-  </a-row>
+      <external-link :offset="0" href="mailto:liyifanv616@outlook.com" icon="email" text="E-mail" />
+    </a-row>
+    <a-row>
+      <a-col>
+        <div class="copyright-info">Created by YiFan Li &copy; {{ new Date().getFullYear() }}</div>
+      </a-col>
+    </a-row>
+  </a-layout-footer>
 </template>
 
 <script>
@@ -41,6 +41,12 @@ export default {
   background-color: gray;
   margin-top: 1cm;
   padding-top: 1cm;
-  padding-bottom: 5cm;
+  padding-bottom: 2cm;
+}
+
+.copyright-info {
+  margin-top: 1cm;
+  color:whitesmoke;
+  font-family: "Times New Roman";
 }
 </style>

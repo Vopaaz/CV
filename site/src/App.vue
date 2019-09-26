@@ -1,21 +1,27 @@
 <template>
-  <div id="app">
-    <general-section sec="education" :state="state" />
-    <general-section sec="internship" :state="state" />
-    <general-section sec="research" :state="state" />
-    <general-section sec="others" :state="state" />
-    <skill-section :state="state" />
-    <page-footer :state="state" />
-    <div>
-      <a-back-top />
+  <a-layout>
+    <page-header :state="state" />
+    <div id="app">
+      <a-layout-content>
+        <general-section sec="education" :state="state" />
+        <general-section sec="internship" :state="state" />
+        <general-section sec="research" :state="state" />
+        <general-section sec="others" :state="state" />
+        <skill-section :state="state" />
+      </a-layout-content>
+      <page-footer :state="state" />
+      <div>
+        <a-back-top />
+      </div>
     </div>
-  </div>
+  </a-layout>
 </template>
 
 <script>
 import GeneralSection from "./components/GeneralSection.vue";
 import SkillSection from "./components/SkillSection.vue";
-import PageFooter from "./components/PageFooter.vue"
+import PageFooter from "./components/PageFooter.vue";
+import PageHeader from "./components/PageHeader.vue";
 import state from "./assets/Global.js";
 
 export default {
@@ -28,7 +34,8 @@ export default {
   components: {
     GeneralSection,
     SkillSection,
-    PageFooter
+    PageFooter,
+    PageHeader
   }
 };
 </script>

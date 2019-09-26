@@ -30,8 +30,9 @@ export default {
 .contact-info {
   background-color: grey;
   color: white;
-  padding-top: 14pt;
-  padding-bottom: 14pt;
+  padding-top: 28pt;
+  padding-bottom: 28pt;
+  margin-bottom: 15pt;
 }
 
 .name {

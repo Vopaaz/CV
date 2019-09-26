@@ -37,18 +37,17 @@ export default {
     pdf_path: function() {
       if (this.state["lang"] == "zh") {
         if (this.state["verbose"] == "false") {
-          return "../pdf/CV-ZH.pdf";
+          return "pdf/CV-ZH.pdf";
         } else {
-          return "../pdf/CV-ZH-verbose.pdf";
+          return "pdf/CV-ZH-verbose.pdf";
         }
       } else {
         if (this.state["verbose"] == "false") {
-          return "../pdf/CV-EN.pdf";
+          return "pdf/CV-EN.pdf";
         } else {
-          return "../pdf/CV-EN-verbose.pdf";
+          return "pdf/CV-EN-verbose.pdf";
         }
       }
-      return;
     }
   }
 };

@@ -1,6 +1,6 @@
 <template>
   <a-row>
-    <a-col :span="16" :offset="4" class="section-col-container">
+    <a-col :span="18" :offset="3" class="section-col-container">
       <h2>{{ sec_title }}</h2>
       <a-card
         class="exp-card"

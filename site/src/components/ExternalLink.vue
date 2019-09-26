@@ -1,5 +1,5 @@
 <template>
-  <a-col :span="2" :offset="offset">
+  <a-col :span="3" :offset="offset">
     <a v-if="href.endsWith('pdf')" :href="href" target="_blank" download class="external-link">
       <a-row>
         <svgicon :icon="icon" width="1.5cm" height="1.5cm" color="#ffffff"></svgicon>
@@ -37,5 +37,6 @@ export default {
 <style>
 .external-link {
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 </style>

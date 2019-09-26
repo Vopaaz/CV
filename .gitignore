@@ -6,3 +6,5 @@
 *.log
 *.out
 .vscode/
+site/src/assets/experience.json
+site/public/pdf/*

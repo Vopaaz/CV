@@ -252,11 +252,11 @@
     "zh": "其他信息",
     "details": {
       "en": [
-        "Skills: C, Python, Java, LaTeX, Microsoft Office Word, Excel, PowerPoint",
+        "Skills:  Python, C, Java, Scala, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
         "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112)"
       ],
       "zh": [
-        "技能：C, Python, Java, LaTeX, Microsoft Office Word, Excel, PowerPoint",
+        "技能： Python, C, Java, Scala, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
         "语言：普通话（母语），英语（流利，托福112分）"
       ]
     }

@@ -1,8 +1,22 @@
 <template>
   <a-row class="contact-info">
-    <a-col :span="8" :offset="5" class="name en-name" v-if="this.lang == 'en'">YiFan Li</a-col>
-    <a-col :span="8" :offset="5" class="name zh-name" v-else>李逸凡</a-col>
-    <a-col :span="6" class="contact">
+    <a-col
+      :lg="{ span: 5, offset: 5}"
+      :md="{ span: 9, offset: 1}"
+      :sm="{ span: 11, offset: 1}"
+      :xs="{ span: 20, offset: 2}"
+      class="name en-name"
+      v-if="this.lang == 'en'"
+    >YiFan Li</a-col>
+    <a-col
+      :lg="{ span: 5, offset: 5}"
+      :md="{ span: 9, offset: 1}"
+      :sm="{ span: 11, offset: 1}"
+      :xs="{ span: 20, offset: 2}"
+      class="name zh-name"
+      v-else
+    >李逸凡</a-col>
+    <a-col :lg="{span: 7}" :md="{span: 9}" :sm="{span: 12}" :xs="{span: 20, offset: 2}" class="contact">
       <ul>
         <li>+86 188-1101-9056</li>
         <li>

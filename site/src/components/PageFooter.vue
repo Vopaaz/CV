@@ -1,15 +1,42 @@
 <template>
   <a-layout-footer class="page-footer">
     <a-row>
-      <external-link :offset="6" :href="pdf_path" icon="file-pdf" text="PDF" />
-      <external-link :offset="0" href="https://github.com/Vopaaz" icon="github" text="Github" />
       <external-link
-        :offset="0"
+        :lg="{ offset: 6, span: 3 }"
+        :md="{ offset: 4, span: 4 }"
+        :sm="{ offset: 0, span: 6 }"
+        :xs="{ offset: 0, span: 6 }"
+        :href="pdf_path"
+        icon="file-pdf"
+        text="PDF"
+      />
+      <external-link
+        :lg="{ offset: 0, span: 3 }"
+        :md="{ offset: 0, span: 4 }"
+        :sm="{ offset: 0, span: 6 }"
+        :xs="{ offset: 0, span: 6 }"
+        href="https://github.com/Vopaaz"
+        icon="github"
+        text="Github"
+      />
+      <external-link
+        :lg="{ offset: 0, span: 3 }"
+        :md="{ offset: 0, span: 4 }"
+        :sm="{ offset: 0, span: 6 }"
+        :xs="{ offset: 0, span: 6 }"
         href="https://www.linkedin.com/in/yifan-li-vopaaz"
         icon="linkedin"
         text="LinkedIn"
       />
-      <external-link :offset="0" href="mailto:liyifanv616@outlook.com" icon="email" text="E-mail" />
+      <external-link
+        :lg="{ offset: 0, span: 3 }"
+        :md="{ offset: 0, span: 4 }"
+        :sm="{ offset: 0, span: 6 }"
+        :xs="{ offset: 0, span: 6 }"
+        href="mailto:liyifanv616@outlook.com"
+        icon="email"
+        text="E-mail"
+      />
     </a-row>
     <a-row>
       <a-col>

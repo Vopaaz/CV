@@ -1,6 +1,11 @@
 <template>
   <a-row>
-    <a-col :span="18" :offset="3" class="section-col-container">
+    <a-col
+      :xs="{ span:24, offset: 0}"
+      :sm="{ span:20, offset: 2}"
+      :md="{ span:18, offset: 3}"
+      class="section-col-container"
+    >
       <h2>{{ sec_title }}</h2>
       <a-card
         class="exp-card"

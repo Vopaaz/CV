@@ -1,6 +1,11 @@
 <template>
   <a-row>
-    <a-col :span="18" :offset="3" class="section-col-container">
+    <a-col
+      :xs="{ span:24, offset: 0}"
+      :sm="{ span:20, offset: 2}"
+      :md="{ span:18, offset: 3}"
+      class="section-col-container"
+    >
       <h2>{{ sec_title }}</h2>
       <a-card
         :title="exp[lang]['title']"
@@ -16,22 +21,19 @@
             class="info-card position-card"
           >{{ exp[lang]['position'] }}</a-card-grid>
           <a-card-grid
-            style="width:53%;"
+            :style="positionStyle"
             class="info-card position-card"
           >{{ exp[lang]['sub-position'] }} &nbsp;</a-card-grid>
-          <a-card-grid style="width:25%" class="info-card">{{ process_time(exp['time']) }}</a-card-grid>
-          <a-card-grid style="width:22%;" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
+          <a-card-grid :style="timeStyle" class="info-card">{{ process_time(exp['time']) }}</a-card-grid>
+          <a-card-grid :style="locationStyle" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
         </span>
         <span v-else>
           <a-card-grid
-            style="width:53%;"
+            :style="positionStyle"
             class="info-card position-card"
           >{{ exp[lang]['position'] }}</a-card-grid>
-          <a-card-grid
-            style="width:25%"
-            class="info-card"
-          >{{ process_time(exp['time']) }}</a-card-grid>
-          <a-card-grid style="width:22%;" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
+          <a-card-grid :style="timeStyle" class="info-card">{{ process_time(exp['time']) }}</a-card-grid>
+          <a-card-grid :style="locationStyle" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
         </span>
         <a-card-grid style="width:100%;">
           <ul>
@@ -49,6 +51,13 @@
 var _ = require("lodash");
 
 export default {
+  data: function() {
+    return {
+      positionStyle: "",
+      timeStyle: "",
+      locationStyle: ""
+    };
+  },
   props: {
     sec: String,
     state: Object
@@ -64,7 +73,7 @@ export default {
     },
     process_time: function(str) {
       function format_CN_date(d) {
-        return `${d.getFullYear()}年${d.getMonth()+1}月`;
+        return `${d.getFullYear()}年${d.getMonth() + 1}月`;
       }
 
       var start = new Date(str.split("-")[0].trim());
@@ -89,6 +98,21 @@ export default {
         }
       }
       return `${start} - ${end}`;
+    },
+    handleCardStyle: function() {
+      if (window.innerWidth >= 1368) {
+        this.positionStyle = "width:53%";
+        this.timeStyle = "width:25%";
+        this.locationStyle = "width:22%";
+      } else if (window.innerWidth >= 576) {
+        this.positionStyle = "width:100%";
+        this.timeStyle = "width:50%; padding-left:30px";
+        this.locationStyle = "width:50%; padding-left:30px";
+      } else {
+        this.positionStyle = "width:100%";
+        this.timeStyle = "width:100%; padding-left:30px";
+        this.locationStyle = "width:100%; padding-left:30px";
+      }
     }
   },
   computed: {
@@ -111,6 +135,10 @@ export default {
     lang: function() {
       return this.state["lang"];
     }
+  },
+  created() {
+    window.addEventListener("resize", this.handleCardStyle);
+    this.handleCardStyle();
   }
 };
 </script>

@@ -76,7 +76,7 @@ export default {
         return `${d.getFullYear()}年${d.getMonth() + 1}月`;
       }
 
-      var start = new Date(str.split("-")[0].trim());
+      var start = new Date(str.split("-")[0].trim()+"/01");
       var end = str.split("-")[1].trim();
       if (this.lang == "en") {
         var options = {
@@ -87,14 +87,14 @@ export default {
         if (end == "now") {
           end = "Now";
         } else {
-          end = new Date(end).toLocaleDateString("en-US", options);
+          end = new Date(end+"/01").toLocaleDateString("en-US", options);
         }
       } else {
         start = format_CN_date(start);
         if (end == "now") {
           end = "至今";
         } else {
-          end = format_CN_date(new Date(end));
+          end = format_CN_date(new Date(end+"/01"));
         }
       }
       return `${start} - ${end}`;

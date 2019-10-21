@@ -14,7 +14,7 @@
           "details": [
             "GPA: 3.84/4.0 (Ranking: 1/29)",
             "Selected Courses: Accounting Principles, Principles of Economics, Corporate Finance, Data Structures and Algorithms, Computer Languages and Programming, Practice of Programming",
-            "Won Academic excellence scholarship, Sports excellence scholarship, etc."
+            "Won National Scholarship, Academic excellence scholarship, Sports excellence scholarship, etc."
           ]
         },
         "zh": {
@@ -25,7 +25,7 @@
           "details": [
             "平均分：3.84/4.0（专业排名：1/29）",
             "选修课程：会计学原理，经济学原理，公司金融，数据结构与算法，计算机语言与程序设计，程序设计实践等",
-            "获学业优秀奖学金、体育优秀奖学金等多项荣誉"
+            "获国家奖学金、学业优秀奖学金、体育优秀奖学金等多项荣誉"
           ]
         },
         "en-on": "true",
@@ -252,11 +252,11 @@
     "zh": "其他信息",
     "details": {
       "en": [
-        "Skills:  Python, C, Java, Scala, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
+        "Skills:  Python, C, Java, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
         "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112)"
       ],
       "zh": [
-        "技能： Python, C, Java, Scala, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
+        "技能： Python, C, Java, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
         "语言：普通话（母语），英语（流利，托福112分）"
       ]
     }

@@ -120,7 +120,8 @@
         "time": "2018/10 - now",
         "zh": {
           "title": "虚拟经济中价格指数的构建及货币传导机制研究",
-          "position": "清华经管学院，导师：罗文澜教授，刘庆教授",
+          "position": "研究助理",
+          "sub-position": "清华经管学院，导师：罗文澜教授，刘庆教授",
           "location": "中国 - 北京",
           "details": [
             "与腾讯互联网创新技术联合实验室合作立项，使用 Python 对 FIFA Online 3 游戏中，玩家间交易以及玩家与游戏公司交易的逐笔数据进行挖掘和处理，建立理论和计量模型",
@@ -130,7 +131,8 @@
         "en": {
           "title": "Research on Price Index Construction and Monetary Mechanism in Fictitious Economy",
           "location": "Beijing, China",
-          "position": "Tsinghua U. SEM, Supervisor: Prof. Wenlan Luo, Prof. Qing Liu",
+          "position": "Research Assistant",
+          "sub-position": "Tsinghua U. SEM, Supervisor: Prof. Wenlan Luo, Prof. Qing Liu",
           "details": [
             "Participated in the project which was cooperated by Tsinghua and Tencent Internet Innovation Technology Joint Lab, responsible for analyzing and mining transaction data of FIFA Online 3 Game by using Python, and build the econometric model",
             "Analyze the reasons for game currency inflation and player losing of FIFA Online 3 and give suggestions for the transaction platform, monetary mechanism, etc. of FIFA Online 4 Game"
@@ -138,6 +140,32 @@
         },
         "zh-on": "true",
         "en-on": "true"
+      },
+      {
+        "command": "umnresearch",
+        "time": "2019/09 - 2019/12",
+        "zh": {
+          "title":"Carlson Leader 时间使用情况分析",
+          "location":"美国 - 明尼阿波里斯",
+          "position":"研究助理",
+          "sub-position":"明尼苏达大学，导师：Prof. Le Zhou",
+          "details":[
+            "使用 Python 提取 500 份 Excel 文件中的数据合为一份 CSV, 并进行了数据清洗。帮助完成了描述性统计、相关性和回归等初步数据分析",
+            "使用 Vue.js, Flask 和 MongoDB 搭建了用于替代 Excel 进行数据收集的网站，提供用户提交数据以及反馈实验结果的功能。通过用户提交时的验证机制减少了无效数据，同时使界面美观程度显著提升"
+          ]
+        },
+        "en": {
+          "title": "Carlson Leader Time Use Data Analysis",
+          "location": "Minneapolis, U.S.A.",
+          "position": "Research Assistant",
+          "sub-position": "University of Minnesota, Supervisor: Prof. Le Zhou",
+          "details": [
+            "Wrote Python scripts to extract time use data from 500 Excel spreadsheets into one CSV. Conducted the data cleansing and help with preliminary analysis like reporting descriptive statistics, correlation and regression",
+            "Built a website with Vue.js, Flask and MongoDB to replaced the old Excel data collection tool, providing both data collection and participant feedback functionality. The veracity of data and the user-friendliness are both improved."
+          ]
+        },
+        "zh-on": "false",
+        "en-on": "false"
       }
     ]
   },

@@ -16,7 +16,13 @@
       class="name zh-name"
       v-else
     >李逸凡</a-col>
-    <a-col :lg="{span: 7}" :md="{span: 9}" :sm="{span: 12}" :xs="{span: 20, offset: 2}" class="contact">
+    <a-col
+      :lg="{span: 7}"
+      :md="{span: 9}"
+      :sm="{span: 12}"
+      :xs="{span: 20, offset: 2}"
+      class="contact"
+    >
       <ul>
         <li>+86 188-1101-9056</li>
         <li>
@@ -42,7 +48,12 @@ export default {
 
 <style scoped>
 .contact-info {
-  background-color: grey;
+  background: rgb(66, 66, 66);
+  background: linear-gradient(
+    30deg,
+    rgba(66, 66, 66, 1) 0%,
+    rgba(97, 97, 97, 1) 100%
+  );
   color: white;
   padding-top: 28pt;
   padding-bottom: 28pt;

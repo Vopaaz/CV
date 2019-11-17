@@ -82,7 +82,12 @@ export default {
 
 <style scoped>
 .page-footer {
-  background-color: gray;
+  background: rgb(66, 66, 66);
+  background: linear-gradient(
+    30deg,
+    rgba(66, 66, 66, 1) 0%,
+    rgba(97, 97, 97, 1) 100%
+  );
   margin-top: 1cm;
   padding-top: 1cm;
   padding-bottom: 2cm;

@@ -13,7 +13,7 @@
           "location": "Beijing, China",
           "details": [
             "GPA: 3.84/4.0 (Ranking: 1/29)",
-            "Selected Courses: Accounting Principles, Principles of Economics, Corporate Finance, Data Structures and Algorithms, Computer Languages and Programming, Practice of Programming",
+            "Selected Courses: Data Structures and Algorithms, The Principle and Application of Database, Computer Languages and Programming, Practice of Programming, Principles of Economics, etc.",
             "Won National Scholarship, Academic excellence scholarship, Sports excellence scholarship, etc."
           ]
         },
@@ -24,7 +24,7 @@
           "location": "中国 - 北京",
           "details": [
             "平均分：3.84/4.0（专业排名：1/29）",
-            "选修课程：会计学原理，经济学原理，公司金融，数据结构与算法，计算机语言与程序设计，程序设计实践等",
+            "选修课程：数据结构，数据库原理及应用，计算机语言与程序设计，程序设计实践，经济学原理等",
             "获国家奖学金、学业优秀奖学金、体育优秀奖学金等多项荣誉"
           ]
         },
@@ -39,6 +39,7 @@
           "position": "Exchange Student, Carlson School of Management",
           "location": "Minneapolis, U.S.A.",
           "details": [
+            "GPA: 3.898/4.0",
             "Selected Courses: Big Data Engineering and Architecture (Graduate Level), Interactive Data Visualization for Business Analytics, Analysis and Modeling of Business Systems, Introduction to Artificial Intelligence"
           ]
         },
@@ -47,6 +48,7 @@
           "position": "交换生，卡尔森管理学院",
           "location": "美国 - 明尼阿波里斯",
           "details": [
+            "平均分：3.898/4.0",
             "选修课程：Big Data Engineering and Architecture (研究生课程), Interactive Data Visualization for Business Analytics, Analysis and Modeling of Business Systems, Introduction to Artificial Intelligence"
           ]
         },
@@ -145,13 +147,13 @@
         "command": "umnresearch",
         "time": "2019/09 - 2019/12",
         "zh": {
-          "title":"Carlson Leader 时间使用情况分析",
-          "location":"美国 - 明尼阿波里斯",
-          "position":"研究助理",
-          "sub-position":"明尼苏达大学，导师：Prof. Le Zhou",
-          "details":[
-            "使用 Python 提取 500 份 Excel 文件中的数据合为一份 CSV, 并进行了数据清洗。帮助完成了描述性统计、相关性和回归等初步数据分析",
-            "使用 Vue.js, Flask 和 MongoDB 搭建了用于替代 Excel 进行数据收集的网站，提供用户提交数据以及反馈实验结果的功能。通过用户提交时的验证机制减少了无效数据，同时使界面美观程度显著提升"
+          "title": "Carlson Leader 时间使用情况分析",
+          "location": "美国 - 明尼阿波里斯",
+          "position": "研究助理",
+          "sub-position": "明尼苏达大学，导师：Prof. Le Zhou",
+          "details": [
+            "使用 Python 提取 500 余份 Excel 文件中的数据，合并为一份 CSV 并进行了数据清洗。帮助完成了描述性统计、相关性和回归等初步数据分析",
+            "使用 Vue.js, Flask 和 MongoDB 搭建了用于替代 Excel 进行实验数据收集的网站，提供用户提交数据以及反馈实验结果的功能。通过用户提交时的验证机制减少了无效数据，同时使界面美观程度显著提升"
           ]
         },
         "en": {
@@ -280,11 +282,11 @@
     "zh": "其他信息",
     "details": {
       "en": [
-        "Skills:  Python, C, Java, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
+        "Skills: Python, Scala, Spark, SQL, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
         "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112)"
       ],
       "zh": [
-        "技能： Python, C, Java, SQL, LaTeX, Microsoft Visio, Microsoft Project, Microsoft Office",
+        "技能：Python, Scala, Spark, SQL, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
         "语言：普通话（母语），英语（流利，托福112分）"
       ]
     }

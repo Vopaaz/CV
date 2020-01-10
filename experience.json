@@ -84,8 +84,8 @@
             "完成各类报告的中英文翻译，根据调查材料汇总制作两份投资项目研究摘要PPT，并完成会议记录"
           ]
         },
-        "en-on": "true",
-        "zh-on": "true"
+        "en-on": "false",
+        "zh-on": "false"
       },
       {
         "command": "continental",
@@ -106,6 +106,30 @@
           "details": [
             "从 Oracle 数据库中获取数据，使用 MicroStrategy 商业智能工具和 KNIME 数据分析平台对数据进行挖掘。分析并预测一次合格率、物流发货量等重要生产指标，并绘制交互式的可视化图表提供给相关决策者",
             "深度参与公司机器人流程自动化 (RPA) 战略项目。快速学习并独立使用 UiPath RPA 软件开发了公司试点的三个自动化流程项目。主持了三场内部研讨会，并完成了一份110余页的教程文档，推动 RPA 项目在整个公司范围内的实施与应用"
+          ]
+        },
+        "en-on": "true",
+        "zh-on": "true"
+      },
+      {
+        "command": "bytedance",
+        "time": "2020/01 - now",
+        "en": {
+          "title": "ByteDance Inc.",
+          "location": "Beijing, China",
+          "position": "Big Data R&D Intern",
+          "details": [
+            "Conduct data modelling, management and construction for the corporate advertising data warehouse. Build ETL pipeline or data cleansing jobs with Hive SQL, Spark and other technologies. Support the requirements of the downstream business units, contributing to all the advertisement-related OLAP projects including data analytics and business intelligence",
+            "Improve department's process and R&D efficiency by organizing process specification and data map documentation, configuring automatic Q&A robot that serves the business units, and the team project management platform, etc."
+          ]
+        },
+        "zh": {
+          "title": "字节跳动",
+          "location": "中国 - 北京",
+          "position": "大数据研发实习生",
+          "details": [
+            "在公司广告数据平台深度参与数据仓库的建模、治理与建设。使用 Hive SQL, Spark 等技术搭建 ETL 数据管道，或进行数据清洗。对接下游业务方服务数据需求，支持全公司广告业务有关的数据分析、商业智能应用等 OLAP 项目落地",
+            "参与其他流程、研发效率优化相关工作，包括整理流程规范文档和数据地图，配置对外答疑自动化机器人以及团队项目管理平台等。"
           ]
         },
         "en-on": "true",
@@ -282,11 +306,11 @@
     "zh": "其他信息",
     "details": {
       "en": [
-        "Skills: Python, Scala, Spark, SQL, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
+        "Skills: Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
         "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112)"
       ],
       "zh": [
-        "技能：Python, Scala, Spark, SQL, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
+        "技能：Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
         "语言：普通话（母语），英语（流利，托福112分）"
       ]
     }

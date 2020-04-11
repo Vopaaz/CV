@@ -119,7 +119,7 @@
           "location": "Beijing, China",
           "position": "Big Data R&D Intern",
           "details": [
-            "Conduct data modelling, management and construction for the corporate advertising data warehouse. Build ETL pipeline or data cleansing jobs with Hive SQL, Spark and other technologies. Support the requirements of the downstream business units, contributing to all the advertisement-related OLAP projects including data analytics and business intelligence",
+            "Conduct data modelling, management and construction for the corporate advertising data warehouse with Hive SQL, Spark and other technologies. Support the requirements of the downstream business units, contributing to all the advertisement-related OLAP projects including data analytics and business intelligence",
             "Improve department's process and R&D efficiency by organizing process specification and data map documentation, configuring automatic Q&A robot that serves the business units, and the team project management platform, etc."
           ]
         },
@@ -128,8 +128,8 @@
           "location": "中国 - 北京",
           "position": "大数据研发实习生",
           "details": [
-            "在公司广告数据平台深度参与数据仓库的建模、治理与建设。使用 Hive SQL, Spark 等技术搭建 ETL 数据管道，或进行数据清洗。对接下游业务方服务数据需求，支持全公司广告业务有关的数据分析、商业智能应用等 OLAP 项目落地",
-            "参与其他流程、研发效率优化相关工作，包括整理流程规范文档和数据地图，配置对外答疑自动化机器人以及团队项目管理平台等。"
+            "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。对接下游业务方服务数据需求，支持全公司广告业务有关的数据分析、商业智能应用等 OLAP 项目落地",
+            "参与其他流程、研发效率优化相关工作，包括整理流程规范文档和数据地图，配置对外答疑自动化机器人以及团队项目管理平台等"
           ]
         },
         "en-on": "true",

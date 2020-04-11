@@ -29,4 +29,8 @@ lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-ZH.tex" > %sil
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./CV-ZH.tex" > %silentfile%
 if errorlevel 1 ( echo [ATTENTION] ZH: FAILED [ATTENTION] ) else ( echo ZH: finished )
 
+cd %root%/merged
+lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./Merged.tex" > %silentfile%
+if errorlevel 1 ( echo [ATTENTION] MERGED: FAILED [ATTENTION] ) else ( echo Merged: finished )
+
 echo PDF making succeed

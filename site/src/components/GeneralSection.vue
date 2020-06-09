@@ -69,7 +69,7 @@ export default {
         return `<a target="_blank" href="${x.match(re)[2]}">${
           x.match(re)[1]
         }</a>`;
-      });
+      }).replace("``", '"').replace("''", '"');
     },
     process_time: function(str) {
       function format_CN_date(d) {

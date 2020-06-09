@@ -14,3 +14,5 @@ echo files copied to site directory
 echo Deploy the website
 cd %root%/site
 call deploy.bat
+
+cd %root%

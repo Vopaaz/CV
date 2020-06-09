@@ -34,3 +34,4 @@ lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./Merged.tex" > %si
 if errorlevel 1 ( echo [ATTENTION] MERGED: FAILED [ATTENTION] ) else ( echo Merged: finished )
 
 echo PDF making succeed
+cd %root%

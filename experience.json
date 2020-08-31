@@ -113,12 +113,12 @@
       },
       {
         "command": "bytedance",
-        "time": "2020/01 - now",
+        "time": "2020/01 - 2020/08",
         "en": {
           "title": "ByteDance Inc.",
           "location": "Beijing, China",
           "position": "Big Data R&D Intern, Jan - June",
-          "sub-position": "Data Science Intern, June - Now",
+          "sub-position": "Data Science Intern, June - August",
           "details": [
             "Construct the corporate advertising data warehouse by conducting data modelling and Hive SQL/Spark development. Mainly support the requirements of the ``Dou+'' team (the ads business affiliated to TikTok), contributing to their OLAP projects including data analytics and business intelligence",
             "Optimize the alerting mechanism of our A/B testing platform by applying time series data mining techniques. Increase the accuracy of alerting from about 60% to 90%"
@@ -128,7 +128,7 @@
           "title": "字节跳动",
           "location": "中国 - 北京",
           "position": "大数据研发实习生，1 月 - 6 月",
-          "sub-position": "数据科学实习生，6 月至今",
+          "sub-position": "数据科学实习生，6 月 - 8 月",
           "details": [
             "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持抖音广告业务的数据分析、商业智能应用等 OLAP 项目落地",
             "通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%"
@@ -309,11 +309,11 @@
     "details": {
       "en": [
         "Skills: Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
-        "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 112, GRE: 337)"
+        "Languages: Native proficiency in Mandarin, Fluent English (TOEFL: 113, GRE: 337)"
       ],
       "zh": [
         "技能：Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, Microsoft Visio, Microsoft Office",
-        "语言：普通话（母语），英语（流利，托福 112 分，GRE 337 分）"
+        "语言：普通话（母语），英语（流利，托福 113 分，GRE 337 分）"
       ]
     }
   }

@@ -108,8 +108,8 @@
             "深度参与公司机器人流程自动化 (RPA) 战略项目。快速学习并独立使用 UiPath RPA 软件开发了公司试点的三个自动化流程项目。主持了三场内部研讨会，并完成了一份 110 余页的教程文档，推动 RPA 项目在整个公司范围内的实施与应用"
           ]
         },
-        "en-on": "true",
-        "zh-on": "true"
+        "en-on": "false",
+        "zh-on": "false"
       },
       {
         "command": "bytedance",
@@ -132,6 +132,28 @@
           "details": [
             "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持抖音广告业务的数据分析、商业智能应用等 OLAP 项目落地",
             "通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%"
+          ]
+        },
+        "en-on": "true",
+        "zh-on": "true"
+      },
+      {
+        "command": "msra",
+        "time": "2020/08 - now",
+        "en": {
+          "location": "Beijing, China",
+          "title": "Microsoft Research Asia (MSRA)",
+          "position": "TODO:",
+          "details": [
+            "TODO:"
+          ]
+        },
+        "zh": {
+          "location": "中国 - 北京",
+          "title": "微软亚洲研究院 (MSRA)",
+          "position": "TODO:",
+          "details": [
+            "TODO:"
           ]
         },
         "en-on": "true",

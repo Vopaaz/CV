@@ -12,9 +12,8 @@
           "sub-position": "Bachelor of Science, Minor in Data Science and Technology",
           "location": "Beijing, China",
           "details": [
-            "GPA: 3.85/4.0 (Ranking: 1/29)",
-            "Selected Courses: Data Structures and Algorithms, The Principle and Application of Database, Computer Languages and Programming, Practice of Programming, Principles of Economics, etc.",
-            "Won National Scholarship, Academic excellence scholarship, Sports excellence scholarship, etc."
+            "GPA: 3.86/4.0 (Ranking: 1/29)",
+            "Selected awards: National Scholarship (Top 0.01%), Academic excellence scholarship"
           ]
         },
         "zh": {
@@ -23,9 +22,8 @@
           "sub-position": "辅修专业：数据科学与技术，软件学院",
           "location": "中国 - 北京",
           "details": [
-            "平均分：3.85/4.0（专业排名：1/29）",
-            "选修课程：数据结构，数据库原理及应用，计算机语言与程序设计，程序设计实践，经济学原理等",
-            "获国家奖学金、学业优秀奖学金、体育优秀奖学金等多项荣誉"
+            "平均分：3.86/4.0（专业排名：1/29）",
+            "获国家奖学金、学业优秀奖学金等多项荣誉"
           ]
         },
         "en-on": "true",
@@ -71,7 +69,7 @@
           "details": [
             "Independently accomplished the 38-page research report of autonomous car sensor industry, which well prepared for the whole team to investigate the investment target of the on-board MMW (Millimeter Waves) Radar Chip, and gave a presentation to help our team know more about the industry vision",
             "Participated in two interviews of two CEOs about their enterprises according to SWOT and Michael Porter's Five Forces Model, responsible for preparing questions, recording contents, and arranged them into an article",
-            "Translated several Chinese reports into the English version, designed three PPT documents that researched investment projects, and took minutes of two conferences"
+            "Translated several Chinese reports into English version, designed two PPT documents on investment research projects, and took minutes of two conferences"
           ]
         },
         "zh": {
@@ -79,7 +77,7 @@
           "location": "中国 - 上海",
           "position": "实习生，投资部",
           "details": [
-            "独立完成38页的自动驾驶汽车传感器所在行业的研究报告文档，并将重点概括为 22 页 PPT（另附 8 页补充资料）进行汇报，为团队调研一系列同一行业的投资标的 - 车载毫米波雷达芯片提供支持",
+            "独立完成 38 页的自动驾驶汽车传感器所在行业的研究报告文档，并将重点概括为 22 页 PPT（另附 8 页补充资料）进行汇报，为团队调研一系列同一行业的投资标的 - 车载毫米波雷达芯片提供支持",
             "参与了对 2 个项目 CEO 的访谈调研，独立完成前期的问题准备，记录并整理访谈内容，综合前期研究结论给出初步的分析意见",
             "完成各类报告的中英文翻译，根据调查材料汇总制作两份投资项目研究摘要 PPT，并完成会议记录"
           ]
@@ -95,8 +93,10 @@
           "location": "Shanghai, China",
           "position": "Intern, Industrial Engineering Department",
           "details": [
-            "Retrieved data from Oracle Database and applied MicroStrategy Business Intelligence system and KNIME open source platform to complete data mining tasks. Analyzed and predicted important production indicators such as First Pass Yield and logistics shipment, and made interactive visualization charts for the decision makers",
-            "Engaged in the firm's strategic project, RPA (Robotic Process Automation). Quickly learned and independently developed the first three automatic processes in the firm using UiPath RPA software. Hosted three internal seminars and completed a 115-page tutorial documentation,which promoted RPA's institutionalization"
+            "Collected data from Oracle database, and utilized MicroStrategy business intelligence tools and KNIME data analysis platform to conduct analysis on the data gathered",
+            "Analyzed and predicted such key production indicators as primary pass rate and logistic shipment volume, and plotted interactive visualization charts for further review",
+            "Took deep involvement in the PRA (Robotic Process Automation) project, studied and applied UiPath RPA to develop three projects",
+            "Hosted three internal workshops and finished a 110-page tutorial documentation to promote the implementation and application of RPA project in the whole company"
           ]
         },
         "zh": {
@@ -120,7 +120,8 @@
           "position": "Big Data R&D Intern, Jan - June",
           "sub-position": "Data Science Intern, June - August",
           "details": [
-            "Construct the corporate advertising data warehouse by conducting data modelling and Hive SQL/Spark development. Mainly support the requirements of the ``Dou+'' team (the ads business affiliated to TikTok), contributing to their OLAP projects including data analytics and business intelligence",
+            "Employed data modelling techniques, Hive SQL/Spark and other technologies in the corporate advertising data platform for data warehouse construction and governance",
+            "Dealt with the data requirements related to the advertising product of TikTok, ``Dou+'', supporting their data analysis and business intelligence applications",
             "Optimize the alerting mechanism of our A/B testing platform by applying time series data mining techniques. Increase the accuracy of alerting from about 60% to 90%"
           ]
         },
@@ -130,7 +131,7 @@
           "position": "大数据研发实习生，1 月 - 6 月",
           "sub-position": "数据科学实习生，6 月 - 8 月",
           "details": [
-            "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持抖音广告业务的数据分析、商业智能应用等 OLAP 项目落地",
+            "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持抖音广告业务的数据分析、商业智能应用等项目落地",
             "通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%"
           ]
         },
@@ -143,17 +144,19 @@
         "en": {
           "location": "Beijing, China",
           "title": "Microsoft Research Asia (MSRA)",
-          "position": "TODO:",
+          "position": "Research Intern, Software Analytics Team",
           "details": [
-            "TODO:"
+            "Engaged in the design and optimization of a large-scale cloud service failure diagnosis algorithm, and implement it into a Python framework",
+            "Cooperate with Office and other internal application teams to develop API services based on the algorithm, helping the teams to diagnosis their service alerts. It also helps to provide real-world cases for algorithm improvement"
           ]
         },
         "zh": {
           "location": "中国 - 北京",
           "title": "微软亚洲研究院 (MSRA)",
-          "position": "TODO:",
+          "position": "软件分析组，实习研究员",
           "details": [
-            "TODO:"
+            "参与组内大规模云服务诊断算法的设计和优化，并实现为内部 Python 框架",
+            "与 Office 和其他内部应用团队合作，基于该算法根据业务需求开发 API 服务，帮助相关团队对各自的报警进行诊断。同时也为算法改进提供实际案例"
           ]
         },
         "en-on": "true",
@@ -170,22 +173,22 @@
         "time": "2018/10 - 2019/6",
         "zh": {
           "title": "虚拟经济中价格指数的构建及货币传导机制研究",
-          "position": "研究助理",
-          "sub-position": "清华经管学院，导师：罗文澜教授，刘庆教授",
+          "position": "腾讯互联网创新技术联合实验室合作项目",
+          "sub-position": "研究导师：罗文澜教授，刘庆教授",
           "location": "中国 - 北京",
           "details": [
-            "与腾讯互联网创新技术联合实验室合作立项，使用 Python 对 FIFA Online 3 游戏中，玩家间交易以及玩家与游戏公司交易的逐笔数据进行挖掘和处理，建立理论和计量模型",
-            "分析 FIFA Online 3 游戏币严重通货膨胀，并造成游戏玩家严重流失以至难以继续运营的原因，为 FIFA Online 4 的交易平台、货币机制、游戏币奖励等机制设计提出建议"
+            "使用 Python 对 FIFA Online 3 游戏中玩家间交易，以及玩家与游戏公司交易的逐笔数据进行挖掘和处理，建立理论和计量模型",
+            "分析游戏币严重通货膨胀，并造成游戏玩家严重流失以至难以继续运营的原因，为 FIFA Online 4 的交易平台、货币机制、游戏币奖励等机制设计提出建议"
           ]
         },
         "en": {
           "title": "Research on Price Index Construction and Monetary Mechanism in Fictitious Economy",
           "location": "Beijing, China",
-          "position": "Research Assistant",
-          "sub-position": "Tsinghua U. SEM, Supervisor: Prof. Wenlan Luo, Prof. Qing Liu",
+          "position": "Cooperation Project with Tsinghua-Tencent Internet Innovation Technology Joint Laboratory",
+          "sub-position": "Research Assistant to Prof. Wenlan Luo, Prof. Qing Liu, Tsinghua U.",
           "details": [
-            "Participated in the project which was cooperated by Tsinghua and Tencent Internet Innovation Technology Joint Lab, responsible for analyzing and mining transaction data of FIFA Online 3 Game by using Python, and build the econometric model",
-            "Analyze the reasons for game currency inflation and player losing of FIFA Online 3 and give suggestions for the transaction platform, monetary mechanism, etc. of FIFA Online 4 Game"
+            "Applied Python on data mining and preprocessing on the data of inter-player transactions and the transactions between players and game companies in FIFA Online 3, and established theoretical and econometrical model",
+            "Analyzed the reasons for the serious inflation of game currency and severe loss of players in the game, and proposed suggestions for the transaction, currency, and reward mechanism for FIFA Online 4"
           ]
         },
         "zh-on": "true",
@@ -307,8 +310,9 @@
           "location": "Shanghai, China",
           "position": "Team Leader, Regional Champion",
           "details": [
-            "Applied Machine Learning techniques to complete the task of predicting the residents' moving path destinations in the preliminary contest which has more than 2700 global participants. Contributed 80% of the ideas of feature engineering, independently build the workflow framework with Python. Finished model selection and hyper-parameter optimization with my teammate. Eventually, $HREF{our solution}{https://github.com/Vopaaz/EY-DS-Competition} won the fourth place in China",
-            "Made $HREF{presentation slides}{https://github.com/Vopaaz/EY-DS-Competition-Slides} using Reveal.js, and stated our thoughts during the exploration clearly, analyzed the prediction result and proposed several business implications with my teammate. Because of our outstanding presentation, we won the championship in the regional final"
+            "Employed Machine Learning techniques to complete the task of predicting the residents' activity path terminus. Contributed 80% of feature engineering ideas and independently built the workflow framework with Python. Cooperated with teammate to do model selection and hyper-parameter optimization",
+            "Made $HREF{presentation slides}{https://github.com/Vopaaz/EY-DS-Competition-Slides} with Reveal.js, clearly presented the exploring process, analyzed the results, and proposed possible future applications in the final presentation",
+            "Ultimately led the team win the Championship in China Competition Region"
           ]
         },
         "zh": {
@@ -316,8 +320,9 @@
           "location": "中国 - 上海",
           "position": "队长，地区冠军",
           "details": [
-            "在全球共有 2700 余位选手参加的初赛中，使用机器学习技术完成了居民活动路径终点的预测任务。为队伍贡献了 80% 的特征工程思路，使用 Python 独立完成了工作流框架的搭建，并与队友共同完成模型选择和参数调优。最终$HREF{解决方案}{https://github.com/Vopaaz/EY-DS-Competition}的精准度获得中国地区第四名",
-            "在地区前十名角逐的决赛中，使用 Reveal.js 制作$HREF{演示幻灯片}{https://github.com/Vopaaz/EY-DS-Competition-Slides}，与队友一同清晰地陈述了整个探究过程的思路，对结果的分析并提出实际应用的可能。依靠最终的展示表现，获得中国地区决赛冠军"
+            "使用机器学习技术完成了居民活动路径终点的预测任务。为队伍贡献了 80% 的特征工程思路，使用 Python 独立完成了工作流框架的搭建，并与队友共同完成模型选择和参数调优",
+            "在地区前十名角逐的决赛中，使用 Reveal.js 制作$HREF{演示幻灯片}{https://github.com/Vopaaz/EY-DS-Competition-Slides}，与队友一同清晰地陈述了整个探究过程的思路，对结果的分析并提出实际应用的可能",
+            "最终$HREF{解决方案}{https://github.com/Vopaaz/EY-DS-Competition}获得中国地区决赛冠军"
           ]
         },
         "en-on": "true",

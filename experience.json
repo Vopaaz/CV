@@ -8,12 +8,12 @@
         "time": "2017/09 - 2021/06",
         "en": {
           "title": "Tsinghua University",
-          "position": "Bachelor of Management, Major in Information Management and Information System",
-          "sub-position": "Bachelor of Science, Minor in Data Science and Technology",
+          "position": "Bachelor of Management in Information Management and Information System, Major",
+          "sub-position": "Bachelor of Science in Data Science and Technology, Minor",
           "location": "Beijing, China",
           "details": [
-            "GPA: 3.86/4.0 (Ranking: 1/29)",
-            "Selected awards: National Scholarship (Top 0.01%), Academic excellence scholarship"
+            "GPA: 3.85/4.0 (Ranking: 1/29)",
+            "Selected awards: National Scholarship (Top 0.01%), Academic Excellence Scholarship"
           ]
         },
         "zh": {
@@ -22,7 +22,7 @@
           "sub-position": "辅修专业：数据科学与技术，软件学院",
           "location": "中国 - 北京",
           "details": [
-            "平均分：3.86/4.0（专业排名：1/29）",
+            "平均分：3.85/4.0（专业排名：1/29）",
             "获国家奖学金、学业优秀奖学金等多项荣誉"
           ]
         },
@@ -34,7 +34,7 @@
         "time": "2019/08 - 2019/12",
         "en": {
           "title": "University of Minnesota",
-          "position": "Exchange Student, Carlson School of Management",
+          "position": "Exchange Student at Carlson School of Management",
           "location": "Minneapolis, U.S.A.",
           "details": [
             "GPA: 3.898/4.0",
@@ -120,9 +120,9 @@
           "position": "Big Data R&D Intern, Jan - June",
           "sub-position": "Data Science Intern, June - August",
           "details": [
-            "Employed data modelling techniques, Hive SQL/Spark and other technologies in the corporate advertising data platform for data warehouse construction and governance",
-            "Dealt with the data requirements related to the advertising product of TikTok, ``Dou+'', supporting their data analysis and business intelligence applications",
-            "Optimize the alerting mechanism of our A/B testing platform by applying time series data mining techniques. Increase the accuracy of alerting from about 60% to 90%"
+            "Applied Hive SQL, Spark and other technologies in the corporate advertising data warehouse construction and governance, taking charge of 2 data-mart-level tables and their data pipelines",
+            "Dealt with the data requirements related to ``Dou+'', the advertising product of TikTok, supporting product managers' data analysis for about 5 new features, such as coupons, shopping carts and live streaming promotion",
+            "Optimized the alerting mechanism of the corporate A/B testing platform by applying time series data mining techniques, resulting in an increase of the alerting accuracy from about 60% to 90%"
           ]
         },
         "zh": {
@@ -131,7 +131,7 @@
           "position": "大数据研发实习生，1 月 - 6 月",
           "sub-position": "数据科学实习生，6 月 - 8 月",
           "details": [
-            "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持抖音广告业务的数据分析、商业智能应用等项目落地",
+            "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持约 5 个产品新功能相关的数据分析，包括卡券、购物车和直播间推广等",
             "通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%"
           ]
         },
@@ -146,9 +146,9 @@
           "title": "Microsoft Research Asia (MSRA)",
           "position": "Research Intern, Software Analytics Team",
           "details": [
-            "Engaged in the design and optimization of a large-scale cloud service failure diagnosis algorithm, and implemented it into a Python package",
-            "Participated in the literature research. Reproduced two related works and conducted comparative experiment",
-            "Cooperate with Office and other internal application teams to develop API services based on the algorithm, helping the teams to diagnosis their service alerts. It also helps to provide real-world cases for algorithm improvement"
+            "Engaged in the design, optimization, and implementation of a large-scale cloud service failure diagnosis algorithm",
+            "Researched more than 15 related literatures and reproduced two of them, conducting comparative experiment",
+            "Cooperated with Office and other internal application teams to develop Flask API services based on the algorithm, helping them to diagnose service alerts, which also help providing cases for algorithm improvement."
           ]
         },
         "zh": {
@@ -156,8 +156,8 @@
           "title": "微软亚洲研究院 (MSRA)",
           "position": "软件分析组，实习研究员",
           "details": [
-            "参与组内大规模云服务诊断算法的设计和优化，并实现为内部 Python 框架。参与论文撰写有关的文献调研、复现和对比实验等工作",
-            "与 Office 和其他内部应用团队合作，基于该算法根据业务需求开发 API 服务，帮助相关团队对各自的报警进行诊断。同时也为算法改进提供实际案例"
+            "参与组内大规模云服务诊断算法的设计、优化与实现。参与论文撰写有关的文献调研，并复现其中两篇论文，进行对比实验",
+            "与 Office 和其他内部应用团队合作，基于该算法根据业务需求开发 Flask API 服务，帮助相关团队对各自的报警进行诊断。同时也为算法改进提供案例"
           ]
         },
         "en-on": "true",
@@ -174,21 +174,19 @@
         "time": "2018/10 - 2019/6",
         "zh": {
           "title": "虚拟经济中价格指数的构建及货币传导机制研究",
-          "position": "腾讯互联网创新技术联合实验室合作项目",
-          "sub-position": "研究导师：罗文澜教授，刘庆教授",
+          "position": "研究导师：罗文澜教授，刘庆教授",
           "location": "中国 - 北京",
           "details": [
-            "使用 Python 对 FIFA Online 3 游戏中玩家间交易，以及玩家与游戏公司交易的逐笔数据进行挖掘和处理，建立理论和计量模型",
+            "与腾讯互联网创新技术联合实验室合作立项，使用 Python 对 FIFA Online 3 游戏中玩家间交易，以及玩家与游戏公司交易的逐笔数据进行挖掘和处理，建立计量模型",
             "分析游戏币严重通货膨胀，并造成游戏玩家严重流失以至难以继续运营的原因，为 FIFA Online 4 的交易平台、货币机制、游戏币奖励等机制设计提出建议"
           ]
         },
         "en": {
           "title": "Research on Price Index Construction and Monetary Mechanism in Fictitious Economy",
           "location": "Beijing, China",
-          "position": "Cooperation Project with Tsinghua-Tencent Internet Innovation Technology Joint Laboratory",
-          "sub-position": "Research Assistant to Prof. Wenlan Luo, Prof. Qing Liu, Tsinghua U.",
+          "position": "Research Assistant to Prof. Wenlan Luo, Prof. Qing Liu, Tsinghua U.",
           "details": [
-            "Applied Python on data mining and preprocessing on the data of inter-player transactions and the transactions between players and game companies in FIFA Online 3, and established theoretical and econometrical model",
+            "Cooperated with Tencent Internet Innovation Technology Joint Lab, applying Python to preprocess and mine the data of inter-player transactions and player-company transactions, and established econometrical model",
             "Analyzed the reasons for the serious inflation of game currency and severe loss of players in the game, and proposed suggestions for the transaction, currency, and reward mechanism for FIFA Online 4"
           ]
         },
@@ -259,10 +257,10 @@
         "en": {
           "title": "Taekwondo Delegation of Tsinghua University",
           "location": "Beijing, China",
-          "position": "Team Leader, Tsinghua University",
+          "position": "Captain",
           "details": [
-            "Took charge of daily training, contacted professional coaches to have lessons for our team, and organized shows in the School Anniversary Activity",
-            "Personally ranked fifth of the Taekwondo Classic Competition among universities in Beijing and led the team to win the second place"
+            "Took charge of daily training, member recruitment, and organized shows in the School Anniversary Activity",
+            "Personally ranked fifth in the Taekwondo Competitions among Beijing Universities, and led the team to win the second place"
           ]
         },
         "zh": {
@@ -270,13 +268,11 @@
           "position": "队长",
           "location": "中国 - 北京",
           "details": [
-            "负责代表队日常训练，假期时联系专业教练进行寒训暑训",
-            "与校文艺部、社团部对接，统筹代表队在校庆等活动中表演节目的策划与排练",
-            "个人最佳成绩：首都高等学校跆拳道精英赛，个人 54-kg 级男子竞技第五名",
-            "团队最佳成绩：团体总分亚军、男子团体亚军"
+            "负责代表队日常训练与招新活动，统筹代表队在校庆等活动中表演节目的策划与排练",
+            "个人最佳成绩：首都高等学校跆拳道精英赛，个人 54-kg 级男子竞技第五名；团队最佳成绩：团体总分亚军"
           ]
         },
-        "en-on": "false",
+        "en-on": "true",
         "zh-on": "false"
       },
       {
@@ -309,11 +305,11 @@
         "en": {
           "title": "Ernst & Young NextWave Data Science Challenge",
           "location": "Shanghai, China",
-          "position": "Team Leader, Regional Champion",
+          "position": "Team Leader",
           "details": [
-            "Employed Machine Learning techniques to complete the task of predicting the residents' activity path terminus. Contributed 80% of feature engineering ideas and independently built the workflow framework with Python. Cooperated with teammate to do model selection and hyper-parameter optimization",
-            "Made $HREF{presentation slides}{https://github.com/Vopaaz/EY-DS-Competition-Slides} with Reveal.js, clearly presented the exploring process, analyzed the results, and proposed possible future applications in the final presentation",
-            "Ultimately led the team win the Championship in China Competition Region"
+            "Led the team win the Championship in China Competition Region among 2700 global participants",
+            "Applied Machine Learning techniques to complete the task of predicting the residents' activity path terminus. Contributed 80% of feature engineering ideas and independently built the workflow with pandas and scikit-learn. Cooperated with teammate to do model selection and hyper-parameter optimization",
+            "Structured a presentation which clearly presented the exploring process, analyzed the results, and proposed possible future applications in the final presentation, leaving a deep impression to the judges and helped us to secure the first prize"
           ]
         },
         "zh": {
@@ -321,9 +317,9 @@
           "location": "中国 - 上海",
           "position": "队长，地区冠军",
           "details": [
-            "使用机器学习技术完成了居民活动路径终点的预测任务。为队伍贡献了 80% 的特征工程思路，使用 Python 独立完成了工作流框架的搭建，并与队友共同完成模型选择和参数调优",
-            "在地区前十名角逐的决赛中，使用 Reveal.js 制作$HREF{演示幻灯片}{https://github.com/Vopaaz/EY-DS-Competition-Slides}，与队友一同清晰地陈述了整个探究过程的思路，对结果的分析并提出实际应用的可能",
-            "最终$HREF{解决方案}{https://github.com/Vopaaz/EY-DS-Competition}获得中国地区决赛冠军"
+            "带领团队在全球 2700 多名选手中获得中国地区决赛冠军",
+            "使用机器学习技术完成了居民活动路径终点的预测任务。为队伍贡献了 80% 的特征工程思路，使用 pandas 和 scikit-learn 独立完成了工作流框架的搭建，并与队友共同完成模型选择和参数调优",
+            "组织了一份清晰的展示报告，与队友一同阐述了整个探究过程的思路、对结果进行的分析，并提出实际应用的可能，给评委留下深刻印象并最终帮助我们获得冠军"
           ]
         },
         "en-on": "true",

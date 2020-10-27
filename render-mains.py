@@ -23,6 +23,7 @@ def head(class_, baselinestretch, name, phone):
     return '''\\documentclass{{{}}}
 
 \\usepackage{{geometry}}
+\\usepackage{{amsmath}}
 \\geometry{{a4paper, top=1cm, bottom=1cm, left=1.2cm,right=1.2cm, nohead, nofoot}}
 
 % --- Adjust the overall stretch here ---

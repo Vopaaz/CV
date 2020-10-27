@@ -101,9 +101,9 @@ export default {
     },
     handleCardStyle: function() {
       if (window.innerWidth >= 1368) {
-        this.positionStyle = "width:53%";
-        this.timeStyle = "width:25%";
-        this.locationStyle = "width:22%";
+        this.positionStyle = "width:64%";
+        this.timeStyle = "width:18.5%";
+        this.locationStyle = "width:17.5%";
       } else if (window.innerWidth >= 576) {
         this.positionStyle = "width:100%";
         this.timeStyle = "width:50%; padding-left:30px";

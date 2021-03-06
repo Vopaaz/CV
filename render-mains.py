@@ -34,7 +34,7 @@ def head(class_, baselinestretch, name, phone):
 
 \\begin{{document}}
 
-\\contact{{{}}}{{{}}}{{liyifan.steven616@gmail.com}}
+\\contact{{{}}}{{{}}}{{liyifanv616@outlook.com}}
 '''.format(class_, baselinestretch, name, phone)
 
 

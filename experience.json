@@ -4,6 +4,28 @@
     "zh": "教育经历",
     "experiences": [
       {
+        "command": "pennmaster",
+        "time": "2021/09 - 2023/06",
+        "en": {
+          "title": "University of Pennsylvania",
+          "position": "Master of Science in Engineering (MSE) in Data Science",
+          "location": "Philadelphia, PA",
+          "details": [
+            "Selected courses: Software Systems, Computational Linguistics, Big Data Analytics"
+          ]
+        },
+        "zh": {
+          "title": "宾夕法尼亚大学",
+          "position": "工学硕士：数据科学，工程与应用科学学院",
+          "location": "美国 - 费城",
+          "details": [
+            "选修课程：Software Systems, Computational Linguistics, Big Data Analytics"
+          ]
+        },
+        "en-on": "true",
+        "zh-on": "true"
+      },
+      {
         "command": "thuundergrad",
         "time": "2017/09 - 2021/06",
         "en": {
@@ -18,8 +40,8 @@
         },
         "zh": {
           "title": "清华大学",
-          "position": "主修专业：信息管理与信息系统，经济与管理学院",
-          "sub-position": "辅修专业：数据科学与技术，软件学院",
+          "position": "管理学学士：信息管理与信息系统，经济与管理学院",
+          "sub-position": "辅修学位：数据科学与技术，软件学院",
           "location": "中国 - 北京",
           "details": [
             "平均分：3.86/4.0（主修专业排名：1/29）",
@@ -35,7 +57,7 @@
         "en": {
           "title": "University of Minnesota",
           "position": "Exchange Student at Carlson School of Management",
-          "location": "Minneapolis, U.S.A.",
+          "location": "Minneapolis, MN",
           "details": [
             "GPA: 3.898/4.0",
             "Selected Courses: Big Data Engineering and Architecture (Graduate Level, won the first place in the coursework big data analytics project), Interactive Data Visualization for Business Analytics, Analysis and Modeling of Business Systems"
@@ -43,7 +65,7 @@
         },
         "zh": {
           "title": "明尼苏达大学",
-          "position": "交换生，卡尔森管理学院",
+          "position": "交换生：卡尔森管理学院",
           "location": "美国 - 明尼阿波里斯",
           "details": [
             "平均分：3.898/4.0",
@@ -272,7 +294,7 @@
             "个人最佳成绩：首都高等学校跆拳道精英赛，个人 54-kg 级男子竞技第五名；团队最佳成绩：团体总分亚军"
           ]
         },
-        "en-on": "true",
+        "en-on": "false",
         "zh-on": "false"
       },
       {

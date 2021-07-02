@@ -26,7 +26,7 @@
       <ul>
         <li>+86 188-1101-9056</li>
         <li>
-          <a href="mailto:liyifanv616@outlook.com" style="color:white;">liyifanv616@outlook.com</a>
+          <a href="mailto:liyifan.steven616@gmail.com" style="color:white;">liyifan.steven616@gmail.com</a>
         </li>
       </ul>
     </a-col>

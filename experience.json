@@ -168,9 +168,9 @@
           "title": "Microsoft Research Asia (MSRA)",
           "position": "Research Intern, Software Analytics Team",
           "details": [
-            "Engaged in the design, optimization, and implementation of a large-scale cloud service failure diagnosis algorithm",
-            "Conducted literature review of about 15 related literatures and reproduced two of them, conducting comparative experiments. Listed as the third author of the paper submitted to SIGKDD 2021",
-            "Cooperated with Office 365 and other internal application teams to develop Flask API services or Kusto plugins based on the algorithm, helping them to incorporate the algorithm into their alerting pipeline, which significantly helped reducing the anomaly mitigation time"
+            "Listed as the third author of the paper accepted by SIGKDD 2021, $TEXTIT{HALO: Hierarchy-aware Fault Localization for Cloud Systems}. Awarded the ``Stars of Tomorrow'' award of excellence.",
+            "Engaged in the design, optimization, and implementation of this large-scale cloud service failure diagnosis algorithm. Conducted literature review of about 15 related works and reproduced two of them, conducting comparative experiments.",
+            "Cooperated with Office 365 and other internal application teams to develop Flask API services or Kusto plugins which incorporated the algorithm into the alerting pipeline. The engineers' anomaly mitigation time were significantly reduced."
           ]
         },
         "zh": {
@@ -178,7 +178,7 @@
           "title": "微软亚洲研究院 (MSRA)",
           "position": "软件分析组，实习研究员",
           "details": [
-            "参与一个云服务异常诊断算法的设计、优化与实现。作为论文第三作者，深度参与文献调研等论文撰写相关工作，并复现其中多篇相关工作进行对比实验。论文已投稿至 SIGKDD 2021",
+            "参与一个云服务异常诊断算法的设计、优化与实现。作为论文第三作者，深度参与文献调研等论文撰写相关工作，并复现其中多篇相关工作进行对比实验。论文《HALO: Hierarchy-aware Fault Localization for Cloud Systems》已被 SIGKDD 2021 接收",
             "与 Office 365 以及其他内部应用团队合作，基于该算法根据业务需求开发 Flask API 服务或 Kusto (Azure 数据资源管理器) 插件，帮助相关团队将算法整合进各自的报警处理流程。根据反馈，算法有效地缩短了业务团队工程师诊断并处理服务异常的时间。"
           ]
         },

@@ -8,11 +8,13 @@ with open("experience.json", "r", encoding="utf-8") as f:
 
 
 def preprocess(s):
-    s = s.replace("LaTeX", r"{\LaTeX}").replace(
-        "%", r"\%").replace("&", r"\&")
+    s = s.replace("LaTeX", r"{\LaTeX}").replace("%", r"\%").replace("&", r"\&")
 
     s = re.compile(r"\$HREF\{(.*?)\}\{(.*?)\}").sub(
-        lambda m_obj: "\\href{{{}}}{{{}}}".format(m_obj.group(2), m_obj.group(1)), s)
+        lambda m_obj: "\\href{{{}}}{{{}}}".format(m_obj.group(2), m_obj.group(1)), s
+    )
+
+    s = re.compile(r"\$TEXTIT\{(.*?)\}").sub(lambda m_obj: "\\textit{{{}}}".format(m_obj.group(1)), s)
     return s
 
 
@@ -50,31 +52,44 @@ def get_content(lang):
         if "experiences" in v:
             for e in v["experiences"]:
                 if "sub-position" not in e[lang]:
-                    s += '''\\newcommand{{\\{}}}{{
+                    s += """\\newcommand{{\\{}}}{{
     \\Experience
     {{{}}}
     {{{}}}
     {{{}}}
     {{{}}}{{
-'''.format(e["command"], preprocess(e[lang]["title"]), preprocess(e[lang]["position"]), format_time(e["time"], lang), preprocess(e[lang]["location"]))
+""".format(
+                        e["command"],
+                        preprocess(e[lang]["title"]),
+                        preprocess(e[lang]["position"]),
+                        format_time(e["time"], lang),
+                        preprocess(e[lang]["location"]),
+                    )
 
                 else:
-                    s += '''\\newcommand{{\\{}}}{{
+                    s += """\\newcommand{{\\{}}}{{
     \\Experience
     {{{}}}
     {{{}}}
     [{}]
     {{{}}}
     {{{}}}{{
-'''.format(e["command"], preprocess(e[lang]["title"]), preprocess(e[lang]["position"]), e[lang]["sub-position"], format_time(e["time"], lang), preprocess(e[lang]["location"]))
+""".format(
+                        e["command"],
+                        preprocess(e[lang]["title"]),
+                        preprocess(e[lang]["position"]),
+                        e[lang]["sub-position"],
+                        format_time(e["time"], lang),
+                        preprocess(e[lang]["location"]),
+                    )
 
                 for i in e[lang]["details"]:
-                    s += r"    \item " + preprocess(i)+"\n"
+                    s += r"    \item " + preprocess(i) + "\n"
 
-                s += '''    }
+                s += """    }
 }
 
-'''
+"""
 
     return s
 

@@ -1,9 +1,9 @@
 <template>
   <a-row>
     <a-col
-      :xs="{ span:24, offset: 0}"
-      :sm="{ span:20, offset: 2}"
-      :md="{ span:18, offset: 3}"
+      :xs="{ span: 24, offset: 0 }"
+      :sm="{ span: 20, offset: 2 }"
+      :md="{ span: 18, offset: 3 }"
       class="section-col-container"
     >
       <h2>{{ sec_title }}</h2>
@@ -16,26 +16,31 @@
         bodyStyle="font-size:14pt; font-family:Calibri, Helvetica, Arial, sans-serif;"
       >
         <span v-if="exp[lang]['sub-position']">
-          <a-card-grid
-            style="width:100%;"
-            class="info-card position-card"
-          >{{ exp[lang]['position'] }}</a-card-grid>
-          <a-card-grid
-            :style="positionStyle"
-            class="info-card position-card"
-          >{{ exp[lang]['sub-position'] }} &nbsp;</a-card-grid>
-          <a-card-grid :style="timeStyle" class="info-card">{{ process_time(exp['time']) }}</a-card-grid>
-          <a-card-grid :style="locationStyle" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
+          <a-card-grid style="width: 100%" class="info-card position-card">{{
+            exp[lang]["position"]
+          }}</a-card-grid>
+          <a-card-grid :style="positionStyle" class="info-card position-card"
+            >{{ exp[lang]["sub-position"] }} &nbsp;</a-card-grid
+          >
+          <a-card-grid :style="timeStyle" class="info-card">{{
+            process_time(exp["time"])
+          }}</a-card-grid>
+          <a-card-grid :style="locationStyle" class="info-card">{{
+            exp[lang]["location"]
+          }}</a-card-grid>
         </span>
         <span v-else>
-          <a-card-grid
-            :style="positionStyle"
-            class="info-card position-card"
-          >{{ exp[lang]['position'] }}</a-card-grid>
-          <a-card-grid :style="timeStyle" class="info-card">{{ process_time(exp['time']) }}</a-card-grid>
-          <a-card-grid :style="locationStyle" class="info-card">{{ exp[lang]['location'] }}</a-card-grid>
+          <a-card-grid :style="positionStyle" class="info-card position-card">{{
+            exp[lang]["position"]
+          }}</a-card-grid>
+          <a-card-grid :style="timeStyle" class="info-card">{{
+            process_time(exp["time"])
+          }}</a-card-grid>
+          <a-card-grid :style="locationStyle" class="info-card">{{
+            exp[lang]["location"]
+          }}</a-card-grid>
         </span>
-        <a-card-grid style="width:100%;">
+        <a-card-grid style="width: 100%">
           <ul>
             <li v-for="detail in exp[lang]['details']" :key="detail">
               <div v-html="preprocess(detail)"></div>
@@ -51,55 +56,63 @@
 var _ = require("lodash");
 
 export default {
-  data: function() {
+  data: function () {
     return {
       positionStyle: "",
       timeStyle: "",
-      locationStyle: ""
+      locationStyle: "",
     };
   },
   props: {
     sec: String,
-    state: Object
+    state: Object,
   },
   methods: {
-    preprocess: function(str) {
-      var re = /\$HREF\{(.*?)\}\{(.*?)\}/;
-      return str.replace(re, x => {
-        return `<a target="_blank" href="${x.match(re)[2]}">${
-          x.match(re)[1]
-        }</a>`;
-      }).replace("``", '"').replace("''", '"');
+    preprocess: function (str) {
+      var re_href = /\$HREF\{(.*?)\}\{(.*?)\}/;
+      var re_textit = /\$TEXTIT\{(.*?)\}/;
+
+      return str
+        .replace(
+          re_href,
+          (x) =>
+            `<a target="_blank" href="${x.match(re_href)[2]}">${
+              x.match(re_href)[1]
+            }</a>`
+        )
+        .replace(re_textit, (x) => `<i> ${x.match(re_textit)[1]} </i>`)
+        .replace("``", '"')
+        .replace("''", '"');
     },
-    process_time: function(str) {
+    process_time: function (str) {
       function format_CN_date(d) {
         return `${d.getFullYear()}年${d.getMonth() + 1}月`;
       }
 
-      var start = new Date(str.split("-")[0].trim()+"/01");
+      var start = new Date(str.split("-")[0].trim() + "/01");
       var end = str.split("-")[1].trim();
       if (this.lang == "en") {
         var options = {
           year: "numeric",
-          month: "short"
+          month: "short",
         };
         start = start.toLocaleDateString("en-US", options);
         if (end == "now") {
           end = "Now";
         } else {
-          end = new Date(end+"/01").toLocaleDateString("en-US", options);
+          end = new Date(end + "/01").toLocaleDateString("en-US", options);
         }
       } else {
         start = format_CN_date(start);
         if (end == "now") {
           end = "至今";
         } else {
-          end = format_CN_date(new Date(end+"/01"));
+          end = format_CN_date(new Date(end + "/01"));
         }
       }
       return `${start} - ${end}`;
     },
-    handleCardStyle: function() {
+    handleCardStyle: function () {
       if (window.innerWidth >= 1368) {
         this.positionStyle = "width:64%";
         this.timeStyle = "width:18.5%";
@@ -113,16 +126,16 @@ export default {
         this.timeStyle = "width:100%; padding-left:30px";
         this.locationStyle = "width:100%; padding-left:30px";
       }
-    }
+    },
   },
   computed: {
-    sec_title: function() {
+    sec_title: function () {
       return this.state["data"][this.sec][this.lang];
     },
-    ordered_exps: function() {
+    ordered_exps: function () {
       var exps = this.state["data"][this.sec]["experiences"];
       if (this.state["verbose"] == "false") {
-        exps = exps.filter(exp => {
+        exps = exps.filter((exp) => {
           return exp[this.state["lang"] + "-on"] == "true";
         });
       }
@@ -132,14 +145,14 @@ export default {
         return _.orderBy(exps, "time", "desc");
       }
     },
-    lang: function() {
+    lang: function () {
       return this.state["lang"];
-    }
+    },
   },
   created() {
     window.addEventListener("resize", this.handleCardStyle);
     this.handleCardStyle();
-  }
+  },
 };
 </script>
 

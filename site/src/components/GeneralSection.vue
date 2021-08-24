@@ -86,7 +86,7 @@ export default {
     },
     process_time: function (str) {
       function format_CN_date(d) {
-        return `${d.getFullYear()}年${d.getMonth() + 1}月`;
+        return `${d.getFullYear()}/${d.getMonth() + 1}`;
       }
 
       var start = new Date(str.split("-")[0].trim() + "/01");

@@ -24,7 +24,8 @@
       class="contact"
     >
       <ul>
-        <li>+86 188-1101-9056</li>
+        <li v-if="this.lang == 'en'">267-781-5871</li>
+        <li v-else> 18811019056 </li>
         <li>
           <a href="mailto:liyifan.steven616@gmail.com" style="color:white;">liyifan.steven616@gmail.com</a>
         </li>

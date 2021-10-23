@@ -4,10 +4,10 @@ set root=%cd%
 
 echo Copying files to site directory
 copy "experience.json" "site/src/assets/experience.json"
-copy "en\CV-EN-verbose.pdf" "site\public\pdf\CV-EN-verbose.pdf"
-copy "en\CV-EN.pdf" "site\public\pdf\CV-EN.pdf"
-copy "zh\CV-ZH-verbose.pdf" "site\public\pdf\CV-ZH-verbose.pdf"
-copy "zh\CV-ZH.pdf" "site\public\pdf\CV-ZH.pdf"
+copy "en\resume-EN-verbose.pdf" "site\public\pdf\resume-EN-verbose.pdf"
+copy "en\resume-EN.pdf" "site\public\pdf\resume-EN.pdf"
+copy "zh\resume-ZH-verbose.pdf" "site\public\pdf\resume-ZH-verbose.pdf"
+copy "zh\resume-ZH.pdf" "site\public\pdf\resume-ZH.pdf"
 
 echo files copied to site directory
 

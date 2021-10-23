@@ -106,7 +106,7 @@ def skills_section(lang):
 def render(lang, verbose):
     assert lang in ["en", "zh"]
     content = HEAD[lang] + get_content(lang, verbose) + TAIL
-    path = os.path.join(lang, "CV-"+lang.upper() +
+    path = os.path.join(lang, "resume-"+lang.upper() +
                         ("-verbose" if verbose else "") + ".tex")
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)

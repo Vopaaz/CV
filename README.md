@@ -1,7 +1,7 @@
 My Personal Resume.
 
-- [English PDF](en/CV-EN.pdf)
-- [Chinese PDF](zh/CV-ZH.pdf)
+- [English PDF](en/resume-EN.pdf)
+- [Chinese PDF](zh/resume-ZH.pdf)
 - [Website](https://vopaaz.github.io/CV/)
 
 ---

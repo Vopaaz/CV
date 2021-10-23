@@ -1,6 +1,7 @@
 @echo off
 
 echo Rendering .tex files
+call python transpile.py
 call python render-experiences.py
 call python render-mains.py
 echo .tex files rendered

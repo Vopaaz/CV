@@ -139,8 +139,7 @@
         "en": {
           "title": "ByteDance Inc.",
           "location": "Beijing, China",
-          "position": "Big Data R&D Intern, January - June",
-          "sub-position": "Data Science Intern, June - August",
+          "position": "Big Data R&D Intern / Data Science Intern",
           "details": [
             "Applied Hive SQL, Spark and other technologies in corporate advertising data warehouse construction and governance, taking charge of 2 data-mart-level tables and their data pipelines",
             "Managed data requirements related to ``Dou+'', the advertising product of TikTok, supporting product managers' data analysis for about 5 new features, such as coupons, shopping carts and live streaming promotion",
@@ -150,8 +149,7 @@
         "zh": {
           "title": "字节跳动",
           "location": "中国 - 北京",
-          "position": "大数据研发实习生，1 月 - 6 月",
-          "sub-position": "数据科学实习生，6 月 - 8 月",
+          "position": "大数据研发 / 数据科学实习生",
           "details": [
             "在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设，负责两张数据集市层 Hive 表及其数据链路的维护。主要对接抖音业务线的广告产品 ``Dou+'' 相关的数据需求，支持约 5 个产品新功能相关的数据分析，包括卡券、购物车和直播间推广等",
             "通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%"
@@ -242,22 +240,23 @@
       {
         "command": "ryanresearch",
         "time": "2021/09 - now",
-        "en-on":true,
-        "zh-on":true,
+        "en-on": true,
+        "zh-on": true,
         "en": {
-          "title": "aaa",
+          "title": "Research Assistant",
           "location": "Philadelphia, PA",
-          "position": "Research Assistant to Prof. Ryan Dew of University of Pennsylvania, Wharton School",
+          "position": "Supervisor: Prof. Ryan Dew of University of Pennsylvania, Wharton School",
           "details": [
-            "aaa"
+            "Engaged in the research project about adaptive user preference measurement, developing a website for data collection with React and Flask. Implemented various features such as attention check questions and multiple products comparison",
+            "Assisted the maintenance of data ETL pipeline of several other projects using Python, MongoDB, and Amazon S3, including one for TikTok video and hashtags, and one for tabular data from Nordstrom"
           ]
         },
         "zh": {
-          "title": "aaa",
+          "title": "研究助理",
           "location": "美国 - 宾夕法尼亚",
-          "position": "研究助理，导师：宾夕法尼亚大学沃顿商学院 Prof. Ryan Dew",
+          "position": "导师：宾夕法尼亚大学沃顿商学院 Prof. Ryan Dew",
           "details": [
-            "aaa"
+            ""
           ]
         }
       }
@@ -376,7 +375,7 @@
     "details": {
       "en": [
         "Skills: Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, Data Science, Machine Learning",
-        "I'm also developing a game based on Electron, TypeScript and PixiJS"
+        "I enjoy developing other projects in my leisure time. $HREF{CNKI-2-BibTex}{https://github.com/Vopaaz/CNKI_2_BibTeX} is a Python tool for using BibTex with a Chinese academic database CNKI. It has more than 100 stars and 57k downloads. I'm also developing a game based on Electron, TypeScript, and PixiJS, which is still working in progress but already have more than 10k lines of code."
       ],
       "zh": [
         "技能：Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, 数据科学，机器学习"

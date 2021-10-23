@@ -3,6 +3,8 @@ import os
 import datetime
 from collections import OrderedDict
 
+from util import preprocess
+
 with open("experience.json", "r", encoding="utf-8") as f:
     _ = json.load(f)
 
@@ -20,7 +22,7 @@ ZH_PHONE = "18811019056"
 
 
 def head(class_, baselinestretch, name, phone):
-    return '''\\documentclass{{{}}}
+    return """\\documentclass{{{}}}
 
 \\usepackage{{geometry}}
 \\usepackage{{amsmath}}
@@ -35,12 +37,14 @@ def head(class_, baselinestretch, name, phone):
 \\begin{{document}}
 
 \\contact{{{}}}{{{}}}{{liyifan.steven616@gmail.com}}
-'''.format(class_, baselinestretch, name, phone)
+""".format(
+        class_, baselinestretch, name, phone
+    )
 
 
 HEAD = {
     "en": head(EN_CLASS, EN_BASE_LINE_STRETCH, EN_NAME, EN_PHONE),
-    "zh": head(ZH_CLASS, ZH_BASE_LINE_STRETCH, ZH_NAME, ZH_PHONE)
+    "zh": head(ZH_CLASS, ZH_BASE_LINE_STRETCH, ZH_NAME, ZH_PHONE),
 }
 
 TAIL = r"\end{document}"
@@ -65,8 +69,11 @@ def std_section(sec, lang, verbose, sort_time=True):
     s = ""
     experiences = _[sec]["experiences"]
     if sort_time:
-        experiences = sorted(experiences, key=lambda x: datetime.datetime.strptime(
-            x["time"].split("-")[0].strip(), r"%Y/%m"), reverse=True)
+        experiences = sorted(
+            experiences,
+            key=lambda x: datetime.datetime.strptime(x["time"].split("-")[0].strip(), r"%Y/%m"),
+            reverse=True,
+        )
 
     if verbose:
         s += "\\section{{{}}}\n\n".format(_[sec][lang])
@@ -75,12 +82,12 @@ def std_section(sec, lang, verbose, sort_time=True):
 
     else:
         for e in experiences:
-            if e[lang+"-on"]:
+            if e[lang + "-on"]:
                 s += "\\section{{{}}}\n\n".format(_[sec][lang])
                 break
 
         for e in experiences:
-            if e[lang+"-on"]:
+            if e[lang + "-on"]:
                 s += "\\{}\n".format(e["command"])
 
     s += "\n"
@@ -97,7 +104,7 @@ def skills_section(lang):
     s += "\n"
 
     for i in _["skills"]["details"][lang]:
-        s += "\\item " + i.replace("LaTeX", r"{\LaTeX}")+"\n"
+        s += "\\item " + preprocess(i) + "\n"
     s += r"\end{itemize}"
     s += "\n"
     return s
@@ -106,8 +113,7 @@ def skills_section(lang):
 def render(lang, verbose):
     assert lang in ["en", "zh"]
     content = HEAD[lang] + get_content(lang, verbose) + TAIL
-    path = os.path.join(lang, "resume-"+lang.upper() +
-                        ("-verbose" if verbose else "") + ".tex")
+    path = os.path.join(lang, "resume-" + lang.upper() + ("-verbose" if verbose else "") + ".tex")
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 

@@ -45,9 +45,9 @@ export default {
     },
     switch_verbose(checked) {
       if (checked) {
-        this.state["verbose"] = "false";
+        this.state["verbose"] = false;
       } else {
-        this.state["verbose"] = "true";
+        this.state["verbose"] = true;
       }
     },
     handleShowImportant() {

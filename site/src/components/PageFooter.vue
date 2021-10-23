@@ -63,13 +63,13 @@ export default {
   computed: {
     pdf_path: function() {
       if (this.state["lang"] == "zh") {
-        if (this.state["verbose"] == "false") {
+        if (!this.state["verbose"]) {
           return "pdf/resume-ZH.pdf";
         } else {
           return "pdf/resume-ZH-verbose.pdf";
         }
       } else {
-        if (this.state["verbose"] == "false") {
+        if (!this.state["verbose"]) {
           return "pdf/resume-EN.pdf";
         } else {
           return "pdf/resume-EN-verbose.pdf";

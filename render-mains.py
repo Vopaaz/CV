@@ -75,12 +75,12 @@ def std_section(sec, lang, verbose, sort_time=True):
 
     else:
         for e in experiences:
-            if e[lang+"-on"] == "true":
+            if e[lang+"-on"]:
                 s += "\\section{{{}}}\n\n".format(_[sec][lang])
                 break
 
         for e in experiences:
-            if e[lang+"-on"] == "true":
+            if e[lang+"-on"]:
                 s += "\\{}\n".format(e["command"])
 
     s += "\n"

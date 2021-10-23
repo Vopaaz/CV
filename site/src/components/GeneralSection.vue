@@ -134,9 +134,9 @@ export default {
     },
     ordered_exps: function () {
       var exps = this.state["data"][this.sec]["experiences"];
-      if (this.state["verbose"] == "false") {
+      if (!this.state["verbose"]) {
         exps = exps.filter((exp) => {
-          return exp[this.state["lang"] + "-on"] == "true";
+          return exp[this.state["lang"] + "-on"];
         });
       }
       if (this.sec == "education") {

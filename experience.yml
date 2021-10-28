@@ -23,14 +23,14 @@ education:
     time: 2017/09 - 2021/06
     en:
       title: Tsinghua University
-      position: Bachelor of Management in Information Management and Information System,
-        Major
+      position: Bachelor of Management in Information Management and Information Systems, Major
       sub-position: Bachelor of Science in Data Science and Technology, Minor
       location: Beijing, China
       details:
       - 'GPA: 3.84/4.0'
-      - 'Selected awards: 2019 National Scholarship (Top 0.01%), 2018 & 2020 Academic
+      - 'Awards: 2019 National Scholarship (Top 0.01%), 2018 & 2020 Academic
         Excellence Scholarship'
+      - Exchanged at University of Minnesota in 2019 Fall
     zh:
       title: 清华大学
       position: 管理学学士：信息管理与信息系统，经济与管理学院
@@ -62,8 +62,8 @@ education:
       - 选修课程：Big Data Engineering and Architecture (研究生课程，在课程大数据分析项目中获得班级第一), Interactive
         Data Visualization for Business Analytics, Analysis and Modeling of Business
         Systems
-    en-on: true
-    zh-on: true
+    en-on: false
+    zh-on: false
 
 internship:
   en: Professional Experience
@@ -156,20 +156,16 @@ internship:
     time: 2020/08 - 2021/03
     en:
       location: Beijing, China
-      title: Microsoft Research Asia (MSRA)
-      position: Research Intern, Software Analytics Team
+      title: Microsoft
+      position: Research Intern, Microsoft Research
       details:
-      - 'Listed as the third author of the paper accepted by SIGKDD 2021, $TEXTIT{HALO:
-        Hierarchy-aware Fault Localization for Cloud Systems}. Awarded the ``Stars
-        of Tomorrow'''' award of excellence'
-      - Engaged in the design, optimization, and implementation of this large-scale
-        cloud service failure diagnosis algorithm. Conducted literature review of
-        about 15 related works and reproduced two of them, carrying out comparative
-        experiments
-      - Cooperated with Office 365 and other internal application teams to develop
-        Flask API services or Kusto plugins which incorporated the algorithm into
-        the alerting pipeline. The engineers' anomaly mitigation time was significantly
-        reduced
+      - 'Published a research paper, $TEXTIT{HALO: Hierarchy-aware Fault Localization for Cloud Systems}, on SIGKDD 2021 as the third author.
+        Awarded the ``Stars of Tomorrow'''' award of excellence'
+      - Designed, optimized, and implemented this large-scale cloud service failure diagnosis algorithm with other team members.
+        Reproduced and carried out comparative experiment for two related works using Python
+      - Developed Flask API services and Kusto plugins for Office 365 and other internal application teams
+        to improve their alerting pipelines with our novel algorithm;
+        significantly reduced engineers' anomaly mitigation time
     zh:
       location: 中国 - 北京
       title: 微软亚洲研究院 (MSRA)
@@ -204,7 +200,7 @@ research:
       details:
       - Cooperated with Tencent Internet Innovation Technology Joint Lab to preprocess
         and mine the data of inter-player transactions and player-company transactions
-        with Python and eventually established a related econometrical model
+        and eventually established a related econometrical model
       - Analyzed the reasons for the serious inflation of game currency and severe
         loss of players from FIFA Online 3, and proposed suggestions for the transaction,
         currency, and reward mechanisms for FIFA Online 4
@@ -239,14 +235,13 @@ research:
     en-on: true
     zh-on: true
     en:
-      title: Research Assistant
+      title: Quantitative Marketing Researcher and Developer
       location: Philadelphia, PA
-      position: 'Supervisor: Prof. Ryan Dew of University of Pennsylvania, Wharton
-        School'
+      position: 'The Wharton School, University of Pennsylvania'
       details:
-      - Engaged in the research project about adaptive user preference measurement,
-        developing a website for data collection with React and Flask. Implemented
-        various features such as attention check questions and multiple products comparison
+      - Built a preference measurement web application for data-driven marketing research.
+        Debugged, refactored, and optimized the legacy Flask and React code extensively,
+        leading significant improvement of code robustness and readability
       - Assisted the maintenance of data ETL pipeline of several other projects using
         Python, MongoDB, and Amazon S3, including one for TikTok video and hashtags,
         and one for tabular data from Nordstrom
@@ -255,7 +250,7 @@ research:
       location: 美国 - 宾夕法尼亚
       position: 导师：宾夕法尼亚大学沃顿商学院 Prof. Ryan Dew
       details:
-      - ''
+      - TODO
 
 others:
   en: Leadership and Extracurricular Activities
@@ -341,13 +336,10 @@ others:
       location: Shanghai, China
       position: Team Leader
       details:
-      - Led a team of 2 to win the China Regional Championship, competing against
-        2,700 competitors from around the world
-      - Applied Machine Learning techniques to complete the task of predicting the
-        residents' activity path terminus
-      - Contributed 80% of feature engineering ideas and independently built the workflow
-        with pandas and scikit-learn, and also collaborated with teammate to do model
-        selection and hyper-parameter optimization
+      - Led a team to win the China Regional Championship, competing against 2,700 competitors from around the world.
+      - Contributed feature engineering ideas,
+        did data wrangling, model selection and hyper-parameter optimization with pandas and scikit-learn.
+        Built a machine learning model that accurately predicts residents' travel path
       - Structured the winning presentation, which showed the exploring process, analysis,
         and potential applications
     zh:
@@ -361,16 +353,31 @@ others:
     en-on: true
     zh-on: true
 
+  - command: cnkibibtex
+    time: 2019/02 - now
+    en:
+      title: CNKI-2-BibTeX
+      position: Open Source Developer and Maintainer
+      location: ' '
+      details:
+      - Built an open-source library, $HREF{CNKI-2-BibTeX}{https://github.com/Vopaaz/CNKI_2_BibTeX},
+        for using BibTeX with a Chinese academic database CNKI
+      - The project helped many other Chinese scholars conduct researches, and got more than 100 stars and 57k downloads
+    zh:
+      title: CNKI-2-BibTeX
+      position: 开源项目作者
+      location: ' '
+      details:
+      - TODO
+
+    en-on: true
+    zh-on: true
+
 skills:
   en: Additional Information
   zh: 其他信息
   details:
     en:
-    - 'Skills: Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, Data Science, Machine Learning'
-    - I enjoy developing other projects in my leisure time. $HREF{CNKI-2-BibTex}{https://github.com/Vopaaz/CNKI_2_BibTeX}
-      is a Python tool for using BibTex with a Chinese academic database CNKI. It
-      has more than 100 stars and 57k downloads. I'm also developing a game based
-      on Electron, TypeScript, and PixiJS, which is still working in progress but
-      already have more than 10k lines of code.
+    - 'Skills: Python, SQL, Hive, Scala, Spark, TypeScript, Node.js, Data Science, Machine Learning'
     zh:
     - 技能：Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, 数据科学，机器学习

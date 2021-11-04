@@ -19,6 +19,7 @@ cd %root%/en
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./resume-EN.tex" > %silentfile%
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./resume-EN.tex" > %silentfile%
 if errorlevel 1 ( echo [ATTENTION] EN: FAILED [ATTENTION] ) else ( echo EN: finished )
+cp "./resume-EN.pdf" "Yifan-Li-resume.pdf"
 
 cd %root%/zh
 lualatex -synctex=1 -interaction=nonstopmode --shell-escape "./resume-ZH-verbose.tex" > %silentfile%

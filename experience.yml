@@ -30,7 +30,6 @@ education:
       - 'GPA: 3.84/4.0'
       - 'Awards: 2019 National Scholarship (Top 0.01%), 2018 & 2020 Academic
         Excellence Scholarship'
-      - Exchanged at University of Minnesota in 2019 Fall
     zh:
       title: 清华大学
       position: 管理学学士：信息管理与信息系统，经济与管理学院
@@ -62,7 +61,7 @@ education:
       - 选修课程：Big Data Engineering and Architecture (研究生课程，在课程大数据分析项目中获得班级第一), Interactive
         Data Visualization for Business Analytics, Analysis and Modeling of Business
         Systems
-    en-on: false
+    en-on: true
     zh-on: false
 
 internship:
@@ -243,8 +242,7 @@ research:
         Debugged, refactored, and optimized the legacy Flask and React code extensively,
         leading significant improvement of code robustness and readability
       - Assisted the maintenance of data ETL pipeline of several other projects using
-        Python, MongoDB, and Amazon S3, including one for TikTok video and hashtags,
-        and one for tabular data from Nordstrom
+        Python, MongoDB, and Amazon S3
     zh:
       title: 研究助理
       location: 美国 - 宾夕法尼亚

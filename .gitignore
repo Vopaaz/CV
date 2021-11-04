@@ -8,4 +8,5 @@
 .vscode/
 site/src/assets/experience.json
 site/**/*.pdf
+en/Yifan-Li-resume.pdf
 __pycache__

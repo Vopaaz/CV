@@ -9,4 +9,5 @@
 site/src/assets/experience.json
 site/**/*.pdf
 en/Yifan-Li-resume.pdf
+experience.json
 __pycache__

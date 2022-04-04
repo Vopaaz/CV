@@ -11,7 +11,7 @@ with open("experience.json", "r", encoding="utf-8") as f:
 EN_CLASS = "resumeEN"
 ZH_CLASS = "resumeZH"
 
-EN_BASE_LINE_STRETCH = 1.1
+EN_BASE_LINE_STRETCH = 1.05
 ZH_BASE_LINE_STRETCH = 1.12
 
 EN_NAME = "YiFan Li"

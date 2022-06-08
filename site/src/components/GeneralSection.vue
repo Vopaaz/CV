@@ -80,7 +80,7 @@ export default {
               x.match(re_href)[1]
             }</a>`
         )
-        .replace(re_textit, (x) => `<i> ${x.match(re_textit)[1]} </i>`)
+        .replace(re_textit, (x) => `<i>${x.match(re_textit)[1]}</i>`)
         .replace("``", '"')
         .replace("''", '"');
     },

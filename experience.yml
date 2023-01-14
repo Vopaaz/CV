@@ -10,8 +10,8 @@ education:
         location: Philadelphia, PA
         details:
           - "GPA: 4.0/4.0"
-          - "A+ courses: Stats for Data Science, Computational Linguistics,
-            Big Data Analytics, Algorithms & Computation, Deep Learning"
+          - "A+ courses: Algorithms & Computation, Machine Learning, Deep Learning, Artificial Intelligence,
+            Computational Linguistics"
       zh:
         title: 宾夕法尼亚大学
         position: 工学硕士：数据科学，工程与应用科学学院
@@ -158,12 +158,12 @@ internship:
         title: Microsoft
         position: Research Intern, Microsoft Research
         details:
-          - "Published a research paper, $TEXTIT{HALO: Hierarchy-aware Fault Localization for Cloud Systems}, on SIGKDD 2021 as the third author.
-            Awarded the ``Stars of Tomorrow'' award of excellence"
+          - "Published research paper, $TEXTIT{HALO: Hierarchy-aware Fault Localization for Cloud Systems}, on SIGKDD 2021 as the third author"
           - Designed and implemented ``HALO'', a large-scale failure diagnosis algorithm for cloud services, with other team members.
             Reproduced two related works and conducted comparative experiments of accuracy and runtime efficiency with Python
           - Developed Flask API services and Kusto plugins that allow other internal teams to use our novel algorithm.
             According to feedback from members of Office 365 and Azure, our algorithm significantly reduced engineers' anomaly mitigation time
+          - Awarded the ``Stars of Tomorrow'' award of excellence at the end of the internship
       zh:
         location: 中国 - 北京
         title: 微软亚洲研究院 (MSRA)
@@ -382,7 +382,7 @@ others:
         details:
           - Built an open-source library, $HREF{CNKI-2-BibTeX}{https://github.com/Vopaaz/CNKI_2_BibTeX},
             for using BibTeX with a Chinese academic database CNKI
-          - The project helped many other Chinese scholars conduct researches, and got more than 120 stars and 66k downloads
+          - The project helped many other Chinese scholars conduct researches, and got more than 130 stars and 72k downloads
       zh:
         title: CNKI-2-BibTeX
         position: 开源项目作者
@@ -400,4 +400,4 @@ skills:
     en:
       - "Skills: Python, SQL, Hive, Scala, Spark, TypeScript, Node.js, Data Mining, Machine Learning, AWS"
     zh:
-      - 技能：Python, Scala, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, 数据科学，机器学习
+      - 技能：Python, Scala, Kotlin, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, 数据科学，机器学习

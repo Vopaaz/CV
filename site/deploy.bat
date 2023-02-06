@@ -1,3 +1,4 @@
+set node_options=--openssl-legacy-provider 
 call npm run icons
 call npm run build
 

@@ -132,7 +132,7 @@ internship:
       en:
         title: ByteDance
         location: Beijing, China
-        position: Big Data R&D Intern / Data Science Intern
+        position: Big Data R&D Intern / Data Science Intern, Ads Data Platform
         details:
           - Applied Hive SQL and Spark in corporate advertisement data warehouse construction and governance
           - Maintained the schema and data pipeline of two data-mart-level tables related to ``Dou+'', the advertising product of TikTok.
@@ -177,18 +177,19 @@ internship:
       zh-on: true
 
     - command: amazon
-      time: 2022/05 - 2022/08
+      time: 2023/07 - 2024/03
       en:
         location: Seattle, WA
         title: Amazon
-        position: Software Development Engineer Intern
+        position: Software Development Engineer, Physical Store Analytics Team
         details:
-          - "Designed and implemented a state machine with AWS Step Function and Lambda,
-            which orchestrates the backend data ETL pipeline of the Physical Store Analytics team,
-            loading data from AWS S3 to Redshift and conducting further transformations"
-          - "Compared to the old system, the new architecture allows automatic retries on temporary errors,
-            enables the team to launch manual re-drives easily,
-            and provides more detailed monitoring and customized alerting for the team to manage the data pipeline"
+          - "Maintained team's AWS Glue data pipeline using Scala-Spark, 
+            ensuring smooth operation and data integrity.
+            Designed and implemented a new Employee Disambiguation job within the pipeline, 
+            improving metric accuracy by distinguishing employees from customers"
+          - "Developed and maintained the website portal with an AWS Lambda backend and DynamoDB database, along with a React frontend; 
+            designed a bounding box drawing tool and implemented both backend and frontend component of it,
+            enabling users to define areas of interest and obtain tailored metrics"
       zh:
         location: 美国 - 西雅图
         title: 亚马逊
@@ -253,7 +254,7 @@ research:
       en-on: false
 
     - command: ryanresearch
-      time: 2021/09 - now
+      time: 2021/09 - 2023/05
       en-on: true
       zh-on: true
       en:
@@ -360,8 +361,6 @@ others:
           - Contributed feature engineering ideas,
             did data wrangling, model selection, and hyper-parameter optimization with pandas and scikit-learn.
             Built a machine learning model that accurately predicts residents' travel path
-          - Structured the winning presentation, which showed the exploring process, analysis,
-            and potential applications
       zh:
         title: 安永 NextWave 数据科学挑战赛
         location: 中国 - 上海

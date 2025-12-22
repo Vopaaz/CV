@@ -11,7 +11,7 @@ with open("experience.json", "r", encoding="utf-8") as f:
 EN_CLASS = "resumeEN"
 ZH_CLASS = "resumeZH"
 
-EN_BASE_LINE_STRETCH = 1.075
+EN_BASE_LINE_STRETCH = 1.02
 ZH_BASE_LINE_STRETCH = 1.12
 
 EN_NAME = "YiFan Li"
@@ -26,6 +26,7 @@ def head(class_, baselinestretch, name, phone):
 
 \\usepackage{{geometry}}
 \\usepackage{{amsmath}}
+\\usepackage{{romannum}}
 \\geometry{{a4paper, top=1cm, bottom=1cm, left=1.2cm,right=1.2cm, nohead, nofoot}}
 
 % --- Adjust the overall stretch here ---

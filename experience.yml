@@ -17,7 +17,8 @@ education:
         position: 工学硕士：数据科学，工程与应用科学学院
         location: 美国 - 费城
         details:
-          - 选修课程：Statistics for Data Science, Computational Linguistics, Big Data Analytics, Algorithms & Computation
+          - A+ 课程：Algorithms & Computation, Machine Learning, Deep Learning, Artificial Intelligence,
+            Computational Linguistics
       en-on: true
       zh-on: true
 
@@ -69,7 +70,7 @@ education:
 
 internship:
   en: Professional Experience
-  zh: 实习经历
+  zh: 工作经历
   experiences:
     - command: summitview
       time: 2018/07 - 2018/08
@@ -145,9 +146,9 @@ internship:
         location: 中国 - 北京
         position: 大数据研发 / 数据科学实习生
         details:
-          - 在公司广告数据平台使用 Hive SQL, Spark 等技术深度参与数据仓库的建模、治理与建设，负责两张数据集市层 Hive 表及其数据链路的维护。主要对接抖音业务线的广告产品
-            ``Dou+'' 相关的数据需求，支持约 5 个产品新功能相关的数据分析，包括卡券、购物车和直播间推广等
-          - 通过时间序列数据挖掘方法，优化公司 A/B 测试平台的广告指标时序报警机制。将报警准确率从大约 60% 提升至 90%
+          - 在公司广告数据仓库的建设与治理中应用 Hive SQL 与 Spark
+          - 维护两张与 TikTok 广告产品 ``Dou+'' 相关的数据集市 (data mart) 级别表的表结构与数据流水线；实现新增需求，例如增加与优惠券、购物车、直播推广相关的新指标
+          - 优化公司线上实验平台的 A/B 测试异常检测机制；调研并落地一种基于时间序列数据挖掘的新算法，使告警准确率提升 30%
       en-on: true
       zh-on: true
 
@@ -169,10 +170,10 @@ internship:
         title: 微软亚洲研究院 (MSRA)
         position: 软件分析组，实习研究员
         details:
-          - "参与一个云服务异常诊断算法的设计、优化与实现。作为论文第三作者，深度参与文献调研等论文撰写相关工作，并复现其中多篇相关工作进行对比实验。论文《HALO:
-            Hierarchy-aware Fault Localization for Cloud Systems》已被 SIGKDD 2021 接收"
-          - 与 Office 365 以及其他内部应用团队合作，基于该算法根据业务需求开发 Flask API 服务或 Kusto (Azure 数据资源管理器)
-            插件，帮助相关团队将算法整合进各自的报警处理流程。根据反馈，算法有效地缩短了业务团队工程师诊断并处理服务异常的时间。
+          - "以第三作者身份在 SIGKDD 2021 发表论文 $TEXTIT{HALO: Hierarchy-aware Fault Localization for Cloud Systems}"
+          - 与团队成员共同设计并实现 ``HALO'' —— 用于云服务的大规模故障诊断算法；复现两项相关工作，并使用 Python 对准确率与运行时效率进行对比实验
+          - 开发 Flask API 服务与 Kusto 插件，便于其他内部团队使用我们的新算法；根据 Office 365 与 Azure 团队成员反馈，该算法显著缩短了工程师排查异常的时间
+          - 实习结束时获得明日之星卓越奖
       en-on: true
       zh-on: true
 
@@ -193,11 +194,12 @@ internship:
       zh:
         location: 美国 - 西雅图
         title: 亚马逊
-        position: 软件开发实习生
+        position: 软件开发工程师
         details:
-          - TODO
+          - 使用 Scala-Spark 维护团队的 AWS Glue 数据流水线，保障系统平稳运行与数据一致性；设计并实现流水线中的新 ``员工消歧 (Employee Disambiguation) '' 组件，使转化率指标准确度提升 7%
+          - 开发并维护网站门户：后端采用 AWS Lambda 与 DynamoDB，前端使用 React；设计并实现一个 ``边界框 (bounding box)绘制工具'' 的后端与前端组件，使用户能够定义关注区域并获取定制化指标
       en-on: true
-      zh-on: false
+      zh-on: true
 
     - command: amazonone
       time: 2024/03 - now
@@ -220,11 +222,14 @@ internship:
       zh:
         location: 美国 - 西雅图
         title: 亚马逊
-        position: 软件开发实习生
+        position: 软件开发工程师
         details:
-          - TODO
+          - 从零设计并搭建团队端到端数据流水线与机器学习平台，实现每天约 70GB 数据处理能力，用于扫描亚马逊内部数据库与 API 并进行基于元数据的分类；
+            支撑下游针对高数据安全严重性与个人数据保护策略的执行
+          - 架构并实现一套 AWS 原生流水线：使用 Step Functions 进行调度, AWS Glue (Scala) 做 ETL, SageMaker 覆盖模型全生命周期 (训练、评估、部署、推理), Amazon Bedrock 用于大模型推理；
+            通过 SQS 与 Lambda 实现可扩展的 Bedrock 作业调度，管理并发、重试与运行可靠性
       en-on: true
-      zh-on: false
+      zh-on: true
 
 research:
   en: Research Experience
@@ -299,11 +304,12 @@ research:
         location: 美国 - 宾夕法尼亚
         position: 导师：宾夕法尼亚大学沃顿商学院 Prof. Ryan Dew
         details:
-          - TODO
+          - 为数据驱动的营销研究构建偏好测量 (preference measurement) Web 应用；对遗留的 Flask 与 React 代码进行大量调试、重构与优化，显著提升代码健壮性与可读性
+          - 协助维护多个项目的数据 ETL 流水线，使用 Python、MongoDB 与 AWS S3
 
 others:
-  en: Leadership and Extracurricular Activity
-  zh: 课外活动经历
+  en: Other Projects and Activities
+  zh: 其他项目经历
   experiences:
     - command: cydp
       time: 2019/01 - 2019/02
@@ -397,7 +403,7 @@ others:
           - 使用机器学习技术完成了居民活动路径终点的预测任务。为队伍贡献了 80% 的特征工程思路，使用 pandas 和 scikit-learn 独立完成了工作流框架的搭建，并与队友共同完成模型选择和参数调优
           - 组织了一份清晰的展示报告，与队友一同阐述了整个探究过程的思路、对结果进行的分析，并提出实际应用的可能，给评委留下深刻印象并最终帮助我们获得冠军
       en-on: false
-      zh-on: true
+      zh-on: false
 
     - command: cnkibibtex
       time: 2019/02 - now
@@ -414,7 +420,8 @@ others:
         position: 开源项目作者
         location: " "
         details:
-          - TODO
+          - 构建开源库 $HREF{CNKI-2-BibTeX}{https://github.com/Vopaaz/CNKI_2_BibTeX}, 用于将中文学术数据库 CNKI 的文献信息转换为可用于 BibTeX 的格式
+          - 该项目帮助了许多中国学者开展科研工作，并获得 150+ GitHub Stars 与 10.5 万次下载
 
       en-on: true
       zh-on: true
@@ -426,4 +433,4 @@ skills:
     en:
       - "Skills: Python, SQL, Hive, Scala, Spark, TypeScript, Node.js, Data Mining, Machine Learning, AWS"
     zh:
-      - 技能：Python, Scala, Kotlin, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, 数据科学，机器学习
+      - 技能：Python, Scala, Kotlin, Spark, SQL, Hive, LaTeX, C, Java, TypeScript, Node.js, AWS, 数据科学，机器学习
